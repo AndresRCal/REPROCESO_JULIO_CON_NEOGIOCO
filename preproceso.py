@@ -17,7 +17,7 @@ def recorre_general(general,post,event_id):
     posFin=[]
     long=[]
     for i in general.index:
-        if general['palabra'][i].upper() in post.upper():
+        if ' '+general['palabra'][i].upper()+' ' in post.upper():
             ids+=[event_id]
             pals_sent+=[general['palabra'][i]]
             sent+=[general['sentimiento'][i]]
@@ -30,6 +30,35 @@ def recorre_general(general,post,event_id):
                 posIni+=[False]
                 posFin+=[False]
                 long+=[False]
+        elif ' '+general['palabra'][i].upper()+'S ' in post.upper():
+            ids+=[event_id]
+            pals_sent+=[general['palabra'][i]]
+            sent+=[general['sentimiento'][i]]
+            try:
+                posIni+=[post.upper().index(general['palabra'][i].upper())]
+                posFin+=[post.upper().index(general['palabra'][i].upper())+len(general['palabra'][i].upper())]
+                long+=[len(general['palabra'][i].upper())]
+            except Exception as msg:
+                print(msg)
+                posIni+=[False]
+                posFin+=[False]
+                long+=[False]
+        elif ' '+general['palabra'][i].upper()+'S ' in post.upper():
+            ids+=[event_id]
+            pals_sent+=[general['palabra'][i]]
+            sent+=[general['sentimiento'][i]]
+            try:
+                posIni+=[post.upper().index(general['palabra'][i].upper())]
+                posFin+=[post.upper().index(general['palabra'][i].upper())+len(general['palabra'][i].upper())]
+                long+=[len(general['palabra'][i].upper())]
+            except Exception as msg:
+                print(msg)
+                posIni+=[False]
+                posFin+=[False]
+                long+=[False]
+        else:
+             pass
+             
     dica={
             'ids':ids,
             'pals_sent':pals_sent,
@@ -179,17 +208,21 @@ def Build_DaFr_symbols(df_pals_mod):
     merg=pd.merge(point,adm,on='event_id',how='outer')
     return(merg)
         
-#DF_Ref,DF_Reproc,M1,M2,df_pals_mod=reproceso_delimitacion()
-#General=importa_General()
-#DaFr=DataFrame_pals_sentimiento(df_pals_mod,General)
-#DaFr_symbols=Build_DaFr_symbols(df_pals_mod)
+def WExcel_Wpd(DFrame_list,Names_DFrame_list,Path,FName):
+    band=0
+    writer=pd.ExcelWriter(Path+os.sep+FName+'.xlsx',engine='xlsxwriter')
+    for i in DFrame_list:
+        i.to_excel(writer,sheet_name=Names_DFrame_list[band],index=False)
+        band=band+1
+    writer.save()
+
+DF_Ref,DF_Reproc,M1,M2,df_pals_mod=reproceso_delimitacion()
+General=importa_General()
+DaFr=DataFrame_pals_sentimiento(df_pals_mod,General)
+DaFr_symbols=Build_DaFr_symbols(df_pals_mod)
 #print('Gracias.. hasta luego!')
 
-
-
-
-
-
+WExcel_Wpd([DF_Ref,DF_Reproc,General,M1,M2,df_pals_mod,DaFr,DaFr_symbols],['DF_Ref','DF_Reproc','General','M1','M2','df_pals_mod','DaFr','DaFr_symbols'],os.getcwd(),'SALIDAEXCEL1')
 
 
 
