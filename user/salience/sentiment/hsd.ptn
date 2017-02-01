@@ -1,0 +1,9 @@
+(NN_ALL) (RB)? (JJ)
+(RB)? (JJ) (NN_ALL)
+(RB) (JJ)
+(VB_ALL) (RB_ALL)
+(IN)(RB)(VB_ALL)(JJ_ALL)(NN)(NNS)(SYM)(:)(;)(-)(LRB)(RRB)(CD) (RB)(CC)(IN)(PRP$)(DT)(VB_ALL)(JJ_ALL)(NN)(NNS)(SYM)(:)(;)(-)(LRB)(RRB)(CD) (RB)(VB_ALL)(JJ_ALL)(NN)(NNS)(SYM)(:)(;)(-)(LRB)(RRB)(CD)
+(IN)(RB)(VB_ALL)(JJ_ALL)(NN)(NNS)(SYM)(:)(;)(-)(LRB)(RRB)(CD) (RB)(VB_ALL)(JJ_ALL)(NN)(NNS)(SYM)(:)(;)(-)(LRB)(RRB)(CD)
+(RB)(VB_ALL)(JJ_ALL)(NN)(NNS)(SYM)(:)(;)(-)(LRB)(RRB)(CD)(HASHTAG)
+
+(EMOTICON)

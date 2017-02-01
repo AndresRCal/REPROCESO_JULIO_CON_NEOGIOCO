@@ -1,0 +1,3 @@
+**	~exclude.dat	maxent=false,score=0.0
+(#stopwords.dat)		maxent=false,score=0.0
+^**$		hashset(normalized, "normalization.dat", 1, mention, false)

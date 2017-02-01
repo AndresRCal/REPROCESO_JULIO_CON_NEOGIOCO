@@ -1,0 +1,4 @@
+^(=~'the')$		maxent=false,score=0,stop=true
+**	~exclude.dat	maxent=false,score=0.0
+(#stopwords.dat)		maxent=false,score=0.0
+^**$		normalized=hash("normalization.dat", 1, mention, normalized, false)

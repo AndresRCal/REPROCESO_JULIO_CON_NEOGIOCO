@@ -1,0 +1,6 @@
+(VB)(VBG) (RP)(DT)+ (NN)(NNS)+
+(VBG)(VBD) (NN)(NNS)+
+(NN)(NNS)? (JJ) (NN)
+(NN) (JJ)+
+(RB) (JJ)
+(NN)(NNS) (IN) (DT)? (NN)(NNP)

@@ -1,0 +1,14 @@
+(CD) (='/') (CD) (='/') (CD)=>DATE
+(='IP') (='/') (='TV')=>NNP
+(='Standard') (='&') (='Poors')=>EXCHANGE
+(='x')(='X') (='-') (='M')(='m')=>NNP
+(='<.') (regex=[A-Z]{1,4}>)=>EXCHANGE
+(regex=<[0-9]{4}[.]) (regex=[A-Z]{1,4}>)=>STOCK SYMBOL
+(NN) (='...')=>NN
+(NNP) (='...')=>NNP
+-(='@') +!(='@')=>MENTION
+-(='@') <+(='@') +!(='@')>=>MENTION
+-(='#') +!(='#')=>HASHTAG
+(='http://')(='file://')(='ftp://') +!(POS)(LRB)(RRB)(,)(.)(")(``)(!!!)(...)*=>URI
+(='www.') +!(POS)(LRB)(RRB)(,)(.)(")(``)(!!!)(...)*=>URI
+* +** +(#uri_suffixes.dat) +(/)(\)? +!(POS)(LRB)(RRB)(,)(.)(")(``)(!!!)(...)*=>URI

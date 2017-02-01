@@ -1,0 +1,5 @@
+(RB)(JJ) (NN)(NNS)+
+(VBG)(VBD) (NN)(NNS)+
+(VBG)(VBD) (RP)(DT)+ (NN)(NNS)+
+(CD)? (NN)(NNS) (:)? (NN)(NNS)+
+(RB) (JJ)

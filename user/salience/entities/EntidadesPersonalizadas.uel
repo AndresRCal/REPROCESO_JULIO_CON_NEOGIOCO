@@ -1,0 +1,1155 @@
+Acceso	type=Product, normalized=Acceso
+Accesos	type=Product, normalized=Acceso
+Administración	type=Product, normalized=Administración
+administracion	type=Product, normalized=Administración
+Aire acondicionado	type=Product, normalized=Aire acondicionado
+aire acondisionado	type=Product, normalized=Aire acondicionado
+Alianza	type=Product, normalized=Alianzas
+Alianzas	type=Product, normalized=Alianzas
+aliansa	type=Product, normalized=Alianzas
+aliansas	type=Product, normalized=Alianzas
+ampliacion	type=Product, normalized=Ampliación
+ampliasion	type=Product, normalized=Ampliación
+Ampliación	type=Product, normalized=Ampliación
+Anfitriona	type=Product, normalized=Anfitriona
+Área de descanso	type=Product, normalized=Área de descanso
+Áreas de descanso	type=Product, normalized=Área de descanso
+area de descanso	type=Product, normalized=Área de descanso
+areas de descanso	type=Product, normalized=Área de descanso
+Arquitectura	type=Product, normalized=Arquitectura
+Atención a cliente	type=Product, normalized=Atención a clientes
+Atención a clientes	type=Product, normalized=Atención a clientes
+atencion a cliente	type=Product, normalized=Atención a clientes
+atencion a clientes	type=Product, normalized=Atención a clientes
+atension a cliente	type=Product, normalized=Atención a clientes
+Banco	type=Product, normalized=Banco
+Bancos	type=Product, normalized=Banco
+Baño	type=Product, normalized=Baños
+Baños	type=Product, normalized=Baños
+Cajero automático	type=Product, normalized=Cajero automático
+Cajeros automáticos	type=Product, normalized=Cajero automático
+cajero automatico	type=Product, normalized=Cajero automático
+cajeros automaticos	type=Product, normalized=Cajero automático
+Cajero de estacionamiento	type=Product, normalized=Cajero de estacionamiento
+Cajeros de estacionamiento	type=Product, normalized=Cajero de estacionamiento
+cajeros de estasionamiento	type=Product, normalized=Cajero de estacionamiento
+Centro de Atención a Clientes	type=Product, normalized=Centro de Atención a Clientes
+centro de atencion a clientes	type=Product, normalized=Centro de Atención a Clientes
+Centro de Atención Telefónica	type=Product, normalized=Centro de Atención Telefónica
+centro de atencion telefonica	type=Product, normalized=Centro de Atención Telefónica
+centro de atension telefonica	type=Product, normalized=Centro de Atención Telefónica
+Clima	type=Product, normalized=Clima
+Comercialización	type=Product, normalized=Comercialización
+comercializacion	type=Product, normalized=Comercialización
+comercializasion	type=Product, normalized=Comercialización
+Comida rápida	type=Product, normalized=Comida rápida
+comida rapida	type=Product, normalized=Comida rápida
+Directorios	type=Product, normalized=Directorios
+Diseño	type=Product, normalized=Diseño
+diseno	type=Product, normalized=Diseño
+Elevador	type=Product, normalized=Elevadores
+Elevadores	type=Product, normalized=Elevadores
+Entrada	type=Product, normalized=Entradas
+Entradas	type=Product, normalized=Entradas
+Entretenimiento	type=Product, normalized=Entretenimiento
+Escalera	type=Product, normalized=Escaleras
+Escaleras	type=Product, normalized=Escaleras
+Escalera eléctrica	type=Product, normalized=Escalera eléctrica
+escalera electrica	type=Product, normalized=Escalera eléctrica
+Escaleras eléctricas	type=Product, normalized=Escalera eléctrica
+escaleras electricas	type=Product, normalized=Escalera eléctrica
+Espacio	type=Product, normalized=Espacio
+Espacios	type=Product, normalized=Espacio
+Estacionamiento	type=Product, normalized=Estacionamiento
+estasionamiento	type=Product, normalized=Estacionamiento
+Estacionamientos	type=Product, normalized=Estacionamiento
+Evento	type=Product, normalized=Evento
+Eventos	type=Product, normalized=Evento
+Exhibición	type=Product, normalized=Exhibición
+exhibicion	type=Product, normalized=Exhibición
+Exhibiciones	type=Product, normalized=Exhibición
+Exposición	type=Product, normalized=Exposición
+exposicion	type=Product, normalized=Exposición
+Exposiciones	type=Product, normalized=Exposición
+exposisiones	type=Product, normalized=Exposición
+Fast food	type=Product, normalized=Fast food
+Food Court	type=Product, normalized=Food Court
+Galerías Club	type=Product, normalized=Galerías Club
+galerias club	type=Product, normalized=Galerías Club
+Galerías Magazine	type=Product, normalized=Galerías Magazine
+galerias magazine	type=Product, normalized=Galerías Magazine
+galerias magasine	type=Product, normalized=Galerías Magazine
+Galerías TV	type=Product, normalized=Galerías TV
+galerias tv	type=Product, normalized=Galerías TV
+Giro de tiendas	type=Product, normalized=Giro de tiendas
+Guardia	type=Product, normalized=Guardia
+Guardias	type=Product, normalized=Guardia
+Iluminación	type=Product, normalized=Iluminación
+iluminacion	type=Product, normalized=Iluminación
+iluminasion	type=Product, normalized=Iluminación
+Isla	type=Product, normalized=Isla
+Islas	type=Product, normalized=Isla
+Letrero	type=Product, normalized=Letrero
+Letreros	type=Product, normalized=Letrero
+Limpieza	type=Product, normalized=Limpieza
+limpiesa	type=Product, normalized=Limpieza
+Lugar para discapacitados	type=Product, normalized=Lugar para discapacitados
+Lugares para discapacitados	type=Product, normalized=Lugar para discapacitados
+Mal olor	type=Product, normalized=Mal olor
+mal holor	type=Product, normalized=Mal olor
+Mantenimiento	type=Product, normalized=Mantenimiento
+Máquinas de estacionamiento	type=Product, normalized=Máquinas de estacionamiento
+maquinas de estacionamiento	type=Product, normalized=Máquinas de estacionamiento
+maquinas de estasionamiento	type=Product, normalized=Máquinas de estacionamiento
+Mercadotecnia	type=Product, normalized=Mercadotecnia
+Módulo	type=Product, normalized=Módulo
+modulo	type=Product, normalized=Módulo
+Módulo de Atención y Servicio	type=Product, normalized=Módulo de Atención y Servicio
+modulo de atencion y servicio	type=Product, normalized=Módulo de Atención y Servicio
+modulo de atension y servisio	type=Product, normalized=Módulo de Atención y Servicio
+Módulo de Atención y type=Product, normalized=type=Product, normalized=Módulo de Atención y Servicio
+modulo de atencion y type=Product, normalized=type=Product, normalized=Módulo de Atención y Servicio
+modulo de atension y servisios	type=Product, normalized=Módulo de Atención y Servicio
+Música	type=Product, normalized=Música
+musica	type=Product, normalized=Música
+Policía	type=Product, normalized=Policía
+policia	type=Product, normalized=Policía
+polisia	type=Product, normalized=Policía
+Policías	type=Product, normalized=Policía
+policias	type=Product, normalized=Policía
+polisias	type=Product, normalized=Policía
+Promociones	type=Product, normalized=Promociones
+promociones	type=Product, normalized=Promociones
+promosiones	type=Product, normalized=Promociones
+Publicidad	type=Product, normalized=Publicidad
+publisidad	type=Product, normalized=Publicidad
+Puerta automática	type=Product, normalized=Puerta automática
+puerta automatica	type=Product, normalized=Puerta automática
+Puertas automáticas	type=Product, normalized=Puerta automática
+puertas automaticas	type=Product, normalized=Puerta automática
+Rampa para discapacitados	type=Product, normalized=Rampa para discapacitados
+Rampas para discapacitados	type=Product, normalized=Rampa para discapacitados
+rampa de discapacitados	type=Product, normalized=Rampa para discapacitados
+Remodelación	type=Product, normalized=Remodelación
+remodelacion	type=Product, normalized=Remodelación
+remodelasion	type=Product, normalized=Remodelación
+Renta de espacio	type=Product, normalized=Renta de espacio
+Renta de espacios	type=Product, normalized=Renta de espacio
+Salida de emergencia	type=Product, normalized=Salida de emergencia
+Salidas de emergencia	type=Product, normalized=Salida de emergencia
+Seguridad	type=Product, normalized=Seguridad
+Señalamiento	type=Product, normalized=Señalamiento
+Señalamientos	type=Product, normalized=Señalamiento
+Señalización	type=Product, normalized=Señalización
+señalizacion	type=Product, normalized=Señalización
+señalizasion	type=Product, normalized=Señalización
+Servicio	type=Product, normalized=Servicio
+servisio	type=Product, normalized=Servicio
+Sitio de taxis	type=Product, normalized=Sitio de taxis
+Sonido ambiental	type=Product, normalized=Sonido ambiental
+Temperatura	type=Product, normalized=Temperatura
+Tráfico	type=Product, normalized=Tráfico
+trafico	type=Product, normalized=Tráfico
+Ubicación	type=Product, normalized=Ubicación
+ubicacion	type=Product, normalized=Ubicación
+ubicasion	type=Product, normalized=Ubicación
+Vendedor	type=Product, normalized=Vendedor
+Vendedora	type=Product, normalized=Vendedora
+Ventilación	type=Product, normalized=Ventilación
+ventilacion	type=Product, normalized=Ventilación
+ventilasion	type=Product, normalized=Ventilación
+Vía principal	type=Product, normalized=Vía principal
+via principal	type=Product, normalized=Vía principal
+Vías principales	type=Product, normalized=Vía principal
+vias principales	type=Product, normalized=Vía principal
+Zona de descanso	type=Product, normalized=Zona de descanso
+Zonas de descanso	type=Product, normalized=Zona de descanso
+sona de descanso	type=Product, normalized=Zona de descanso
+Zonas para niños	type=Product, normalized=Zona para niños
+sonas para niños	type=Product, normalized=Zona para niños
+Zona para niños	type=Product, normalized=Zona para niños
+sona para niños	type=Product, normalized=Zona para niños
+PERISUR	type=Company, normalized=Perisur
+GALERIAS PERINORTE	type=Company, normalized=Galerías Perinorte
+GALERÍAS PERINORTE	type=Company, normalized=Galerías Perinorte
+GALERIAS TABASCO	type=Company, normalized=Galerías Tabasco
+GALERÍAS TABASCO	type=Company, normalized=Galerías Tabasco
+GALERIAS MONTERREY	type=Company, normalized=Galerías Monterrey
+GALERÍAS MONTERREY	type=Company, normalized=Galerías Monterrey
+GALERIAS COAPA	type=Company, normalized=Galerías Coapa
+GALERÍAS COAPA	type=Company, normalized=Galerías Coapa
+GALERIAS LAGUNA	type=Company, normalized=Galerías Laguna
+GALERÍAS LAGUNA	type=Company, normalized=Galerías Laguna
+GALERIAS SALTILLO	type=Company, normalized=Galerías Saltillo
+GALERÍAS SALTILLO	type=Company, normalized=Galerías Saltillo
+GALERIAS CHILPANCINGO	type=Company, normalized=Galerías Chilpancingo
+GALERÍAS CHILPANCINGO	type=Company, normalized=Galerías Chilpancingo
+GALERIAS ATIZAPAN	type=Company, normalized=Galerías Atizapán
+GALERÍAS ATIZAPAN	type=Company, normalized=Galerías Atizapán
+GALERIAS ATIZAPÁN	type=Company, normalized=Galerías Atizapán
+GALERÍAS ATIZAPÁN	type=Company, normalized=Galerías Atizapán
+GALERIAS VALLARTA	type=Company, normalized=Galerías Vallarta
+GALERÍAS VALLARTA	type=Company, normalized=Galerías Vallarta
+GALERIAS MERIDA	type=Company, normalized=Galerías Mérida
+GALERÍAS MERIDA	type=Company, normalized=Galerías Mérida
+GALERIAS MÉRIDA	type=Company, normalized=Galerías Mérida
+GALERÍAS MÉRIDA	type=Company, normalized=Galerías Mérida
+GALERIAS CUERNAVACA	type=Company, normalized=Galerías Cuernavaca
+GALERÍAS CUERNAVACA	type=Company, normalized=Galerías Cuernavaca
+GALERIAS QUERETARO	type=Company, normalized=Galerías Queretaro
+GALERÍAS QUERETARO	type=Company, normalized=Galerías Queretaro
+GALERIAS METEPEC	type=Company, normalized=Galerías Metepec
+GALERÍAS METEPEC	type=Company, normalized=Galerías Metepec
+GALERIAS INSURGENTES	type=Company, normalized=Galerías Insurgentes
+GALERÍAS INSURGENTES	type=Company, normalized=Galerías Insurgentes
+GALERIAS CELAYA	type=Company, normalized=Galerías Celaya
+GALERÍAS CELAYA	type=Company, normalized=Galerías Celaya
+GALERIAS ZACATECAS	type=Company, normalized=Galerías Zacatecas
+GALERÍAS ZACATECAS	type=Company, normalized=Galerías Zacatecas
+GALERIAS SAN JUAN DEL RIO	type=Company, normalized=Galerías San Juan del Río
+GALERÍAS SAN JUAN DEL RIO	type=Company, normalized=Galerías San Juan del Río
+GALERIAS SAN JUAN DEL RÍO	type=Company, normalized=Galerías San Juan del Río
+GALERÍAS SAN JUAN DEL RÍO	type=Company, normalized=Galerías San Juan del Río
+GALERIAS CAMPECHE	type=Company, normalized=Galerías Campeche
+GALERÍAS CAMPECHE	type=Company, normalized=Galerías Campeche
+GALERIAS MAZATLAN	type=Company, normalized=Galerías Mazatlán
+GALERÍAS MAZATLAN	type=Company, normalized=Galerías Mazatlán
+GALERIAS MAZATLÁN	type=Company, normalized=Galerías Mazatlán
+GALERÍAS MAZATLÁN	type=Company, normalized=Galerías Mazatlán
+GALERIAS ACAPULCO	type=Company, normalized=Galerías Acapulco
+GALERÍAS ACAPULCO	type=Company, normalized=Galerías Acapulco
+GALERIAS SERDAN	type=Company, normalized=Galerías Serdán
+GALERÍAS SERDAN	type=Company, normalized=Galerías Serdán
+GALERIAS SERDÁN	type=Company, normalized=Galerías Serdán
+GALERÍAS SERDÁN	type=Company, normalized=Galerías Serdán
+GALERIAS TOLUCA	type=Company, normalized=Galerías Toluca
+GALERÍAS TOLUCA	type=Company, normalized=Galerías Toluca
+100% Natural	type=Company, normalized=100% Natural
+3d Lashes	type=Company, normalized=3d Lashes
+5D Movie	type=Company, normalized=5D Movie
+Abito	type=Company, normalized=Abito
+Acapella	type=Company, normalized=Acapella
+Accesorios Celulares	type=Company, normalized=Accesorios Celulares
+Accycel	type=Company, normalized=Accycel
+Actinver	type=Company, normalized=Actinver
+Acuario Mr. Tortus	type=Company, normalized=Acuario Mr. Tortus
+Adidas	type=Company, normalized=Adidas
+Adidas Originals	type=Company, normalized=Adidas Originals
+Adixxion Maak	type=Company, normalized=Adixxion Maak
+Adolfo Dominguez	type=Company, normalized=Adolfo Dominguez
+Adrenalina	type=Company, normalized=Adrenalina
+Adventure	type=Company, normalized=Adventure
+Aeroméxico	type=Company, normalized=Aeroméxico
+Aéropostale	type=Company, normalized=Aéropostale
+Aerosoles	type=Company, normalized=Aerosoles
+AG	type=Company, normalized=AG
+Albaricoque Couture	type=Company, normalized=Albaricoque Couture
+Albertos	type=Company, normalized=Albertos
+Alboa	type=Company, normalized=Alboa
+Aldo	type=Company, normalized=Aldo
+Aldo Conti	type=Company, normalized=Aldo Conti
+Aldo Conti Jr	type=Company, normalized=Aldo Conti Jr
+Alfilo	type=Company, normalized=Alfilo
+All Sport	type=Company, normalized=All Sport
+American Eagle	type=Company, normalized=American Eagle
+American Health	type=Company, normalized=American Health
+Amk	type=Company, normalized=Amk
+Anabel	type=Company, normalized=Anabel
+Anel et Chuy	type=Company, normalized=Anel et Chuy
+Anelli Joyas	type=Company, normalized=Anelli Joyas
+ANELLO	type=Company, normalized=ANELLO
+Antigua	type=Company, normalized=Antigua
+Antojitos Emy	type=Company, normalized=Antojitos Emy
+Applebees	type=Company, normalized=Applebees
+Aqua Terra	type=Company, normalized=Aqua Terra
+Arabiga	type=Company, normalized=Arabiga
+Arantza	type=Company, normalized=Arantza
+Argentina  Express	type=Company, normalized=Argentina  Express
+Arnoldi	type=Company, normalized=Arnoldi
+Arrachera House	type=Company, normalized=Arrachera House
+Arte Egipcio	type=Company, normalized=Arte Egipcio
+Artesanías de Tabasco	type=Company, normalized=Artesanías de Tabasco
+Asadero Beef	type=Company, normalized=Asadero Beef
+A-Takear	type=Company, normalized=A-Takear
+Audio Mundo	type=Company, normalized=Audio Mundo
+Autolasa	type=Company, normalized=Autolasa
+Aviso Oportuno	type=Company, normalized=Aviso Oportuno
+AXA Seguros	type=Company, normalized=AXA Seguros
+Ay Güey	type=Company, normalized=Ay Güey
+Aysha	type=Company, normalized=Aysha
+Azul Pastel	type=Company, normalized=Azul Pastel
+B fashion	type=Company, normalized=B fashion
+Baby Creysi	type=Company, normalized=Baby Creysi
+Baby Panda	type=Company, normalized=Baby Panda
+Baby Up	type=Company, normalized=Baby Up
+Baby Upscale	type=Company, normalized=Baby Upscale
+Bahía Sport Gym	type=Company, normalized=Bahía Sport Gym
+Bai Hao	type=Company, normalized=Bai Hao
+Bamboo	type=Company, normalized=Bamboo
+Banamex	type=Company, normalized=Banamex
+Banana Republic	type=Company, normalized=Banana Republic
+Bancomer	type=Company, normalized=Bancomer
+Bancomer cajeros	type=Company, normalized=Bancomer cajeros
+Banorte	type=Company, normalized=Banorte
+Bari	type=Company, normalized=Bari
+Barrio Tinto	type=Company, normalized=Barrio Tinto
+Be Cool	type=Company, normalized=Be Cool
+Beauty Salon Marisol	type=Company, normalized=Beauty Salon Marisol
+Bebe	type=Company, normalized=Bebe
+Beefer's	type=Company, normalized=Beefer's
+Bejjani	type=Company, normalized=Bejjani
+Bellísima	type=Company, normalized=Bellísima
+Benedetti's Pizza	type=Company, normalized=Benedetti's Pizza
+Bernardi Caffe	type=Company, normalized=Bernardi Caffe
+Bershka	type=Company, normalized=Bershka
+Bestday	type=Company, normalized=Bestday
+Betty's Burgers	type=Company, normalized=Betty's Burgers
+Bewasp	type=Company, normalized=Bewasp
+Bia Brazil	type=Company, normalized=Bia Brazil
+Big Bola	type=Company, normalized=Big Bola
+Bimba y Lola	type=Company, normalized=Bimba y Lola
+Biopiel	type=Company, normalized=Biopiel
+Bistrot Sainz	type=Company, normalized=Bistrot Sainz
+Bizzarro	type=Company, normalized=Bizzarro
+Blitzer accesorios	type=Company, normalized=Blitzer accesorios
+Blitzer Jeans	type=Company, normalized=Blitzer Jeans
+Blossom Spa	type=Company, normalized=Blossom Spa
+Blsk	type=Company, normalized=Blsk
+Blu Lagoon	type=Company, normalized=Blu Lagoon
+Bo & Co	type=Company, normalized=Bo & Co
+Boba Shot	type=Company, normalized=Boba Shot
+Bobois	type=Company, normalized=Bobois
+Boga	type=Company, normalized=Boga
+Bogart	type=Company, normalized=Bogart
+Bol Perinorte	type=Company, normalized=Bol Perinorte
+Bonga Gym	type=Company, normalized=Bonga Gym
+Boston's	type=Company, normalized=Boston's
+Botanicus	type=Company, normalized=Botanicus
+Brantano	type=Company, normalized=Brantano
+Bras y mucho más	type=Company, normalized=Bras y mucho más
+BRUNO CORZA	type=Company, normalized=Bruno Corza
+Buchakas	type=Company, normalized=Buchakas
+Build-A-Bear Workshop	type=Company, normalized=Build-A-Bear Workshop
+Bull Rider	type=Company, normalized=Bull Rider
+Bunaday	type=Company, normalized=Bunaday
+Bunraku	type=Company, normalized=Bunraku
+Burger King	type=Company, normalized=Burger King
+Burritos El Punto	type=Company, normalized=Burritos El Punto
+Burritos Factory	type=Company, normalized=Burritos Factory
+Burro-T	type=Company, normalized=Burro-T
+C&A	type=Company, normalized=C&A
+Cablecom	type=Company, normalized=Cablecom
+Cablemas	type=Company, normalized=Cablemas
+Cablevisión	type=Company, normalized=Cablevisión
+Cabo Grill	type=Company, normalized=Cabo Grill
+Café Central	type=Company, normalized=Café Central
+Cafe Finca Santa Veracruz	type=Company, normalized=Cafe Finca Santa Veracruz
+Cafe Frappisimo	type=Company, normalized=Cafe Frappisimo
+Café Jekemir	type=Company, normalized=Café Jekemir
+Café Mozart	type=Company, normalized=Café Mozart
+Café Punta del Cielo	type=Company, normalized=Café Punta del Cielo
+Café Society	type=Company, normalized=Café Society
+California Pizza Kitchen	type=Company, normalized=California Pizza Kitchen
+California Prime Rib	type=Company, normalized=California Prime Rib
+Calle Tijera	type=Company, normalized=Calle Tijera
+Calvin Klein	type=Company, normalized=Calvin Klein
+Calzedonia Intimissimi	type=Company, normalized=Calzedonia Intimissimi
+Campanita	type=Company, normalized=Campanita
+Camper	type=Company, normalized=Camper
+Candy	type=Company, normalized=Candy
+Candy Bar	type=Company, normalized=Candy Bar
+Capa de Ozono	type=Company, normalized=Capa de Ozono
+Capa de Ozono 2	type=Company, normalized=Capa de Ozono 2
+Caramela	type=Company, normalized=Caramela
+Carl's Jr	type=Company, normalized=Carl's Jr
+Carlo Giovanni	type=Company, normalized=Carlo Giovanni
+Carlo Rossetti	type=Company, normalized=Carlo Rossetti
+Carnevali	type=Company, normalized=Carnevali
+Carnitas Esteban	type=Company, normalized=Carnitas Esteban
+Carnitas La Esperanza	type=Company, normalized=Carnitas La Esperanza
+Carranza y Carranza	type=Company, normalized=Carranza y Carranza
+Carter's	type=Company, normalized=Carter's
+Casa Arles	type=Company, normalized=Casa Arles
+Casa de las Lomas	type=Company, normalized=Casa de las Lomas
+Casa Ortiz	type=Company, normalized=Casa Ortiz
+Casino Joker	type=Company, normalized=Casino Joker
+Casino Life	type=Company, normalized=Casino Life
+Cassava Roots	type=Company, normalized=Cassava Roots
+CAT Telcel	type=Company, normalized=CAT Telcel
+Catalina Vargas	type=Company, normalized=Catalina Vargas
+Celular Express	type=Company, normalized=Celular Express
+Cencel	type=Company, normalized=Cencel
+Cencel 2	type=Company, normalized=Cencel 2
+Centro de Atención a Clientes Telcel	type=Company, normalized=Centro de Atención a Clientes Telcel
+Centro de Belleza Maru Solís	type=Company, normalized=Centro de Belleza Maru Solís
+Ceviche's	type=Company, normalized=Ceviche's
+Charly	type=Company, normalized=Charly
+Charro	type=Company, normalized=Charro
+Chicco	type=Company, normalized=Chicco
+Chicken House & Salads	type=Company, normalized=Chicken House & Salads
+Chico's	type=Company, normalized=Chico's
+Chili's	type=Company, normalized=Chili's
+Chilim Balam	type=Company, normalized=Chilim Balam
+Chilo Flautas	type=Company, normalized=Chilo Flautas
+China Express	type=Company, normalized=China Express
+China Inn	type=Company, normalized=China Inn
+China Town	type=Company, normalized=China Town
+Chi-Palace	type=Company, normalized=Chi-Palace
+Christine	type=Company, normalized=Christine
+Chrysler	type=Company, normalized=Chrysler
+Chuy's Barber Shop	type=Company, normalized=Chuy's Barber Shop
+CI Banco	type=Company, normalized=CI Banco
+Cielito Querido Café	type=Company, normalized=Cielito Querido Café
+Cinemex	type=Company, normalized=Cinemex
+Cinépolis	type=Company, normalized=Cinépolis
+Citizen	type=Company, normalized=Citizen
+Click Joyas	type=Company, normalized=Click Joyas
+Cloe	type=Company, normalized=Cloe
+Club Premier Aeromexico	type=Company, normalized=Club Premier Aeromexico
+Coca cola type=Company, normalized=Coca Cola
+Coca type=Company, normalized=Coca Cola
+Coke type=Company, normalized=Coca Cola
+Cocinas integrales HA	type=Company, normalized=Cocinas integrales HA
+Cocinas Quetzal	type=Company, normalized=Cocinas Quetzal
+Cocodrilo Green	type=Company, normalized=Cocodrilo Green
+Coiffure Sebastian	type=Company, normalized=Coiffure Sebastian
+Colorspot	type=Company, normalized=Colorspot
+Coloso	type=Company, normalized=Coloso
+Columbia	type=Company, normalized=Columbia
+Comatemi	type=Company, normalized=Comatemi
+Comic	type=Company, normalized=Comic
+Comic Baby	type=Company, normalized=Comic Baby
+Comicx	type=Company, normalized=Comicx
+Comunicación Royal	type=Company, normalized=Comunicación Royal
+Confetty	type=Company, normalized=Confetty
+Confite	type=Company, normalized=Confite
+Contempo	type=Company, normalized=Contempo
+Continental Gallery	type=Company, normalized=Continental Gallery
+Converse	type=Company, normalized=Converse
+Cool	type=Company, normalized=Cool
+Cool Fashion	type=Company, normalized=Cool Fashion
+Coqueta y Audaz	type=Company, normalized=Coqueta y Audaz
+Correa Zapaterías	type=Company, normalized=Correa Zapaterías
+Cortefiel	type=Company, normalized=Cortefiel
+Costa Line	type=Company, normalized=Costa Line
+Costushop	type=Company, normalized=Costushop
+Crabtree & Evelyn	type=Company, normalized=Crabtree & Evelyn
+Crepe Corner	type=Company, normalized=Crepe Corner
+Crepes & Waffles	type=Company, normalized=Crepes & Waffles
+Cristal Joyas	type=Company, normalized=Cristal Joyas
+Crochet	type=Company, normalized=Crochet
+Crocs	type=Company, normalized=Crocs
+Cuadra	type=Company, normalized=Cuadra
+Cuidado con el Perro	type=Company, normalized=Cuidado con el Perro
+Dairy Queen	type=Company, normalized=Dairy Queen
+Daniel Espinosa	type=Company, normalized=Daniel Espinosa
+Danya Spa	type=Company, normalized=Danya Spa
+Darinka	type=Company, normalized=Darinka
+Daylight Salads	type=Company, normalized=Daylight Salads
+De Chile Mole y Pozole	type=Company, normalized=De Chile Mole y Pozole
+Decoré	type=Company, normalized=Decoré
+Deli Crepas	type=Company, normalized=Deli Crepas
+Delizie	type=Company, normalized=Delizie
+Demi Jeans	type=Company, normalized=Demi Jeans
+Dentalia	type=Company, normalized=Dentalia
+Deperlas	type=Company, normalized=Deperlas
+Depila-t	type=Company, normalized=Depila-t
+Destination Maternity	type=Company, normalized=Destination Maternity
+Devlyn	type=Company, normalized=Devlyn
+Devlyn Solare	type=Company, normalized=Devlyn Solare
+Devotchka	type=Company, normalized=Devotchka
+Di Bari Pizzeria	type=Company, normalized=Di Bari Pizzeria
+Di' Essenza	type=Company, normalized=Di' Essenza
+Diamantes y Perlas	type=Company, normalized=Diamantes y Perlas
+Dic&Co	type=Company, normalized=Dic&Co
+Dicass Sports	type=Company, normalized=Dicass Sports
+Dico	type=Company, normalized=Dico
+Didactijuegos	type=Company, normalized=Didactijuegos
+Digital Zone	type=Company, normalized=Digital Zone
+Dione	type=Company, normalized=Dione
+Distroller Butik	type=Company, normalized=Distroller Butik
+Diversiones Galex	type=Company, normalized=Diversiones Galex
+Divertido	type=Company, normalized=Divertido
+Dk Boutique	type=Company, normalized=Dk Boutique
+Do&Be	type=Company, normalized=Do&Be
+Dockers	type=Company, normalized=Dockers
+Dolce Mondo	type=Company, normalized=Dolce Mondo
+Domino's Pizza	type=Company, normalized=Domino's Pizza
+Donal Top Salon	type=Company, normalized=Donal Top Salon
+Dormimundo	type=Company, normalized=Dormimundo
+Dorothy Gara	type=Company, normalized=Dorothy Gara
+Dorothy Gaynor	type=Company, normalized=Dorothy Gaynor
+Dorothy Gaynor 2	type=Company, normalized=Dorothy Gaynor 2
+DP Street	type=Company, normalized=DP Street
+Dportenis	type=Company, normalized=Dportenis
+dpstreet	type=Company, normalized=dpstreet
+Dry Clean USA	type=Company, normalized=Dry Clean USA
+Dulcería Chile Nitzá	type=Company, normalized=Dulcería Chile Nitzá
+Dulcería D'Leal	type=Company, normalized=Dulcería D'Leal
+D-Uñas	type=Company, normalized=D-Uñas
+DUO	type=Company, normalized=DUO
+Dynasty Chinese Food	type=Company, normalized=Dynasty Chinese Food
+Eclipse	type=Company, normalized=Eclipse
+Eclipse Plus	type=Company, normalized=Eclipse Plus
+Ecobike	type=Company, normalized=Ecobike
+El Atico	type=Company, normalized=El Atico
+El Corte Inglés	type=Company, normalized=El Corte Inglés
+El Fogón	type=Company, normalized=El Fogón
+El Galpón Argentino	type=Company, normalized=El Galpón Argentino
+El Garabato	type=Company, normalized=El Garabato
+El Globo	type=Company, normalized=El Globo
+El Jaripeo	type=Company, normalized=El Jaripeo
+El Mexicano	type=Company, normalized=El Mexicano
+El ote	type=Company, normalized=El ote
+El Péndulo	type=Company, normalized=El Péndulo
+El Portón	type=Company, normalized=El Portón
+El Tinacal	type=Company, normalized=El Tinacal
+El Torito	type=Company, normalized=El Torito
+El Viajero del Norte	type=Company, normalized=El Viajero del Norte
+Elegance	type=Company, normalized=Elegance
+Elite Lockers	type=Company, normalized=Elite Lockers
+Ellie Boutique	type=Company, normalized=Ellie Boutique
+Elote Real	type=Company, normalized=Elote Real
+Emotion Casino	type=Company, normalized=Emotion Casino
+Emwa	type=Company, normalized=Emwa
+Emyco	type=Company, normalized=Emyco
+Enrique Bricker	type=Company, normalized=Enrique Bricker
+Ensaladetti	type=Company, normalized=Ensaladetti
+Epicland	type=Company, normalized=Epicland
+Erez	type=Company, normalized=Erez
+Ermenegildo Zegna	type=Company, normalized=Ermenegildo Zegna
+Es Coiffeurs	type=Company, normalized=Es Coiffeurs
+Escrupulos	type=Company, normalized=Escrupulos
+Estación del tren	type=Company, normalized=Estación del tren
+Estefanía Duarte Plata	type=Company, normalized=Estefanía Duarte Plata
+Estética Bogus	type=Company, normalized=Estética Bogus
+Etam	type=Company, normalized=Etam
+Eternity Diamonds	type=Company, normalized=Eternity Diamonds
+Europiel Laser Center	type=Company, normalized=Europiel Laser Center
+Evolláser	type=Company, normalized=Evolláser
+Exotic	type=Company, normalized=Exotic
+Exotica	type=Company, normalized=Exotica
+Expo Plaza	type=Company, normalized=Expo Plaza
+Expressiones	type=Company, normalized=Expressiones
+Fabricas de Francia	type=Company, normalized=Fabricas de Francia
+Fabrizio	type=Company, normalized=Fabrizio
+Faces	type=Company, normalized=Faces
+Fans Shop	type=Company, normalized=Fans Shop
+Farmacia Benavides	type=Company, normalized=Farmacia Benavides
+Farmacias Yza	type=Company, normalized=Farmacias Yza
+Fashionalia	type=Company, normalized=Fashionalia
+Ferriano	type=Company, normalized=Ferriano
+Ferrioni	type=Company, normalized=Ferrioni
+Ferrioni N1	type=Company, normalized=Ferrioni N1
+Festivities Yayis	type=Company, normalized=Festivities Yayis
+Fg Gaudí	type=Company, normalized=Fg Gaudí
+Fiore Gelato	type=Company, normalized=Fiore Gelato
+Fiorentina	type=Company, normalized=Fiorentina
+Fitness Station	type=Company, normalized=Fitness Station
+Flamin Wings	type=Company, normalized=Flamin Wings
+Flavio Gatto	type=Company, normalized=Flavio Gatto
+Flexi	type=Company, normalized=Flexi
+Florsheim	type=Company, normalized=Florsheim
+Fonda Santa Clara	type=Company, normalized=Fonda Santa Clara
+Fonix distribuidor autorizado Telcel	type=Company, normalized=Fonix distribuidor autorizado Telcel
+Forever 21	type=Company, normalized=Forever 21
+Forever Teens	type=Company, normalized=Forever Teens
+Foto Fácil	type=Company, normalized=Foto Fácil
+Fracmar	type=Company, normalized=Fracmar
+Franco Cuadra	type=Company, normalized=Franco Cuadra
+Fresa	type=Company, normalized=Fresa
+Friso	type=Company, normalized=Friso
+Frutiyogurth	type=Company, normalized=Frutiyogurth
+Fullsand	type=Company, normalized=Fullsand
+Fundación Dondé	type=Company, normalized=Fundación Dondé
+Furor	type=Company, normalized=Furor
+G Candila	type=Company, normalized=G Candila
+G.I in Style	type=Company, normalized=G.I in Style
+Galerías Florencia	type=Company, normalized=Galerías Florencia
+Galerías Rojas	type=Company, normalized=Galerías Rojas
+Game Planet	type=Company, normalized=Game Planet
+Gandhi	type=Company, normalized=Gandhi
+Gap	type=Company, normalized=Gap
+Garabatos	type=Company, normalized=Garabatos
+Gelateria Italiana	type=Company, normalized=Gelateria Italiana
+Gelato	type=Company, normalized=Gelato
+Georgie Boy	type=Company, normalized=Georgie Boy
+Georgie Boy 2	type=Company, normalized=Georgie Boy 2
+Giannino' s	type=Company, normalized=Giannino' s
+Gigi's Pizzeria	type=Company, normalized=Gigi's Pizzeria
+Giolini	type=Company, normalized=Giolini
+Giovanni's	type=Company, normalized=Giovanni's
+Girls	type=Company, normalized=Girls
+Glazier	type=Company, normalized=Glazier
+Gloria Jeans	type=Company, normalized=Gloria Jeans
+GNC	type=Company, normalized=GNC
+Go Beauty	type=Company, normalized=Go Beauty
+Goc	type=Company, normalized=Goc
+Gonher	type=Company, normalized=Gonher
+Gonia	type=Company, normalized=Gonia
+Gorditas Doña Tota	type=Company, normalized=Gorditas Doña Tota
+Green Grass	type=Company, normalized=Green Grass
+Greñitas	type=Company, normalized=Greñitas
+Guayaberass	type=Company, normalized=Guayaberass
+Guess	type=Company, normalized=Guess
+Gula	type=Company, normalized=Gula
+Gushto	type=Company, normalized=Gushto
+Guvier	type=Company, normalized=Guvier
+H&M	type=Company, normalized=H&M
+Häagen Dazs	type=Company, normalized=Häagen Dazs
+Hang Ten	type=Company, normalized=Hang Ten
+Hawaiian Paradise	type=Company, normalized=Hawaiian Paradise
+Heaven	type=Company, normalized=Heaven
+Heaven PB	type=Company, normalized=Heaven PB
+Helados Dairy Queen	type=Company, normalized=Helados Dairy Queen
+Helados Nutrisa	type=Company, normalized=Helados Nutrisa
+Helados Santa Clara	type=Company, normalized=Helados Santa Clara
+Helados Sultana	type=Company, normalized=Helados Sultana
+Heroes Restaurant & Bar	type=Company, normalized=Heroes Restaurant & Bar
+Hey Fitness	type=Company, normalized=Hey Fitness
+Hidalgo	type=Company, normalized=Hidalgo
+High Life	type=Company, normalized=High Life
+High Street	type=Company, normalized=High Street
+Hill's	type=Company, normalized=Hill's
+Holanda	type=Company, normalized=Holanda
+Hotel Fiesta Inn	type=Company, normalized=Hotel Fiesta Inn
+HP	type=Company, normalized=HP
+HP store	type=Company, normalized=HP store
+HSBC	type=Company, normalized=HSBC
+Hugo Boss	type=Company, normalized=Hugo Boss
+Hurley	type=Company, normalized=Hurley
+Huun Libros & Lounge	type=Company, normalized=Huun Libros & Lounge
+Ice Gallerie	type=Company, normalized=Ice Gallerie
+ICEDOME	type=Company, normalized=ICEDOME
+Ichiban	type=Company, normalized=Ichiban
+If	type=Company, normalized=If
+Illro	type=Company, normalized=Illro
+Imaginarium	type=Company, normalized=Imaginarium
+In Moda	type=Company, normalized=In Moda
+Inbursa	type=Company, normalized=Inbursa
+Ingenia Muebles	type=Company, normalized=Ingenia Muebles
+Innova Sport	type=Company, normalized=Innova Sport
+Innvictus	type=Company, normalized=Innvictus
+Insalades	type=Company, normalized=Insalades
+Insoportablemente Argentino	type=Company, normalized=Insoportablemente Argentino
+Intempo	type=Company, normalized=Intempo
+Interlingua	type=Company, normalized=Interlingua
+Isadora	type=Company, normalized=Isadora
+Ishop	type=Company, normalized=Ishop
+It	type=Company, normalized=It
+Italia Joyas	type=Company, normalized=Italia Joyas
+Italian Coffee	type=Company, normalized=Italian Coffee
+Italian Steak House	type=Company, normalized=Italian Steak House
+Italianni's	type=Company, normalized=Italianni's
+Italiato	type=Company, normalized=Italiato
+Italimo	type=Company, normalized=Italimo
+Iusacell	type=Company, normalized=Iusacell
+Ivonne	type=Company, normalized=Ivonne
+Ivory Tours	type=Company, normalized=Ivory Tours
+Ixe Banco	type=Company, normalized=Ixe Banco
+Jarking	type=Company, normalized=Jarking
+Jean Pierre	type=Company, normalized=Jean Pierre
+Jeans Beronna	type=Company, normalized=Jeans Beronna
+Jeff de Bruges	type=Company, normalized=Jeff de Bruges
+Jobama	type=Company, normalized=Jobama
+Johnny Rockets	type=Company, normalized=Johnny Rockets
+Johnston & Murphy	type=Company, normalized=Johnston & Murphy
+Jollpat	type=Company, normalized=Jollpat
+Joyería Ruiz Hermanos	type=Company, normalized=Joyería Ruiz Hermanos
+Joyerías Luna	type=Company, normalized=Joyerías Luna
+Juguetibici	type=Company, normalized=Juguetibici
+Juguetron	type=Company, normalized=Juguetron
+Julio	type=Company, normalized=Julio
+Julio Cepeda	type=Company, normalized=Julio Cepeda
+Julio Rocha	type=Company, normalized=Julio Rocha
+Juniors Coiffure	type=Company, normalized=Juniors Coiffure
+Just Kids	type=Company, normalized=Just Kids
+Karol's Gift Shop	type=Company, normalized=Karol's Gift Shop
+Karukay	type=Company, normalized=Karukay
+Kauffman	type=Company, normalized=Kauffman
+Kensao	type=Company, normalized=Kensao
+Keten	type=Company, normalized=Keten
+Key Di Ci	type=Company, normalized=Key Di Ci
+KFC	type=Company, normalized=KFC
+Kids Star	type=Company, normalized=Kids Star
+Kiehl's	type=Company, normalized=Kiehl's
+Kiko Donas	type=Company, normalized=Kiko Donas
+Kingbird	type=Company, normalized=Kingbird
+Kipling	type=Company, normalized=Kipling
+Knova	type=Company, normalized=Knova
+Koaj	type=Company, normalized=Koaj
+Kokopao	type=Company, normalized=Kokopao
+Komacy	type=Company, normalized=Komacy
+K-rime Collection	type=Company, normalized=K-rime Collection
+Krispy Kreme	type=Company, normalized=Krispy Kreme
+Kukis by Maru	type=Company, normalized=Kukis by Maru
+Kurian	type=Company, normalized=Kurian
+Kush	type=Company, normalized=Kush
+L'Occitane	type=Company, normalized=L'Occitane
+La Baguette	type=Company, normalized=La Baguette
+La Blanquita	type=Company, normalized=La Blanquita
+La bonita	type=Company, normalized=La bonita
+La Cabaña	type=Company, normalized=La Cabaña
+La Callana	type=Company, normalized=La Callana
+La Canasta	type=Company, normalized=La Canasta
+La Casa de los Rompecabezas	type=Company, normalized=La Casa de los Rompecabezas
+La casa del buen marisco	type=Company, normalized=La casa del buen marisco
+La Casa del Fumador	type=Company, normalized=La Casa del Fumador
+La Casa del Pastor	type=Company, normalized=La Casa del Pastor
+La Ciudad de Colima	type=Company, normalized=La Ciudad de Colima
+La Crepa	type=Company, normalized=La Crepa
+La Crepería	type=Company, normalized=La Crepería
+La Cupcakeria	type=Company, normalized=La Cupcakeria
+La Esmeralda	type=Company, normalized=La Esmeralda
+La Europea	type=Company, normalized=La Europea
+La Fe	type=Company, normalized=La Fe
+La Fundidora	type=Company, normalized=La Fundidora
+La Milagresa	type=Company, normalized=La Milagresa
+La Norteña	type=Company, normalized=La Norteña
+La Oriental	type=Company, normalized=La Oriental
+La Poupeé	type=Company, normalized=La Poupeé
+La Ranita	type=Company, normalized=La Ranita
+La Spezia	type=Company, normalized=La Spezia
+Lacoste	type=Company, normalized=Lacoste
+Lacoste accesorios	type=Company, normalized=Lacoste accesorios
+Las Alitas	type=Company, normalized=Las Alitas
+Las Juanas Tortería	type=Company, normalized=Las Juanas Tortería
+Lavandería Ahucast	type=Company, normalized=Lavandería Ahucast
+Lavoro	type=Company, normalized=Lavoro
+Le Boom To	type=Company, normalized=Le Boom To
+Le Sport Sac	type=Company, normalized=Le Sport Sac
+Lefties	type=Company, normalized=Lefties
+Levi's	type=Company, normalized=Levi's
+Lia Bose	type=Company, normalized=Lia Bose
+Libreria Dante	type=Company, normalized=Libreria Dante
+Librería de la Mancha	type=Company, normalized=Librería de la Mancha
+Librería La Ventana	type=Company, normalized=Librería La Ventana
+Lieb Tobacco	type=Company, normalized=Lieb Tobacco
+Lila	type=Company, normalized=Lila
+Lilia Godinez	type=Company, normalized=Lilia Godinez
+Lily Pot	type=Company, normalized=Lily Pot
+Linda Only Nails	type=Company, normalized=Linda Only Nails
+Lineas	type=Company, normalized=Lineas
+Little Closet	type=Company, normalized=Little Closet
+Liverpool	type=Company, normalized=Liverpool
+Liverpool Motos	type=Company, normalized=Liverpool Motos
+Liverpool Restaurante	type=Company, normalized=Liverpool Restaurante
+Liz Minelli	type=Company, normalized=Liz Minelli
+Llantas Royal	type=Company, normalized=Llantas Royal
+Lob	type=Company, normalized=Lob
+Lob Footwear	type=Company, normalized=Lob Footwear
+Lobby	type=Company, normalized=Lobby
+Lobo Solo	type=Company, normalized=Lobo Solo
+Lombok Exotic Touch	type=Company, normalized=Lombok Exotic Touch
+London Styles	type=Company, normalized=London Styles
+Long Cheng	type=Company, normalized=Long Cheng
+Loops & Coffee	type=Company, normalized=Loops & Coffee
+Los Bisquets Bisquets Obregón	type=Company, normalized=Los Bisquets Bisquets Obregón
+Los de Pescado	type=Company, normalized=Los de Pescado
+Los Trompos	type=Company, normalized=Los Trompos
+Lux Sport	type=Company, normalized=Lux Sport
+Mabel	type=Company, normalized=Mabel
+Mac	type=Company, normalized=Mac
+Mac Store	type=Company, normalized=Mac Store
+Magic Trek	type=Company, normalized=Magic Trek
+Maison Kayser	type=Company, normalized=Maison Kayser
+Malibú	type=Company, normalized=Malibú
+Mama Mía	type=Company, normalized=Mama Mía
+Mando's	type=Company, normalized=Mando's
+Mango	type=Company, normalized=Mango
+Marco Viali	type=Company, normalized=Marco Viali
+Maria Isabel	type=Company, normalized=Maria Isabel
+MARIKARLI	type=Company, normalized=MARIKARLI
+Mario Hernandez	type=Company, normalized=Mario Hernandez
+Marsel	type=Company, normalized=Marsel
+Martí	type=Company, normalized=Martí
+Más Visión	type=Company, normalized=Más Visión
+Mascotas Leo's	type=Company, normalized=Mascotas Leo's
+Maskota	type=Company, normalized=Maskota
+Massimo Dutti	type=Company, normalized=Massimo Dutti
+Max Mara	type=Company, normalized=Max Mara
+Mc Donald's	type=Company, normalized=Mc Donald's
+McDonald's	type=Company, normalized=McDonald's
+MCO	type=Company, normalized=MCO
+Mea Culpa	type=Company, normalized=Mea Culpa
+Melendez Grill	type=Company, normalized=Melendez Grill
+Men's Factory	type=Company, normalized=Men's Factory
+Men's Fashion	type=Company, normalized=Men's Fashion
+Merrell	type=Company, normalized=Merrell
+Miberth	type=Company, normalized=Miberth
+Michel Domit	type=Company, normalized=Michel Domit
+Michelle	type=Company, normalized=Michelle
+Mineralia	type=Company, normalized=Mineralia
+Mistertennis	type=Company, normalized=Mistertennis
+Mixup	type=Company, normalized=Mixup
+Miyako	type=Company, normalized=Miyako
+Mobo	type=Company, normalized=Mobo
+Mobo Shop	type=Company, normalized=Mobo Shop
+Moderna Sport	type=Company, normalized=Moderna Sport
+Moditelas	type=Company, normalized=Moditelas
+Monas y Monitos	type=Company, normalized=Monas y Monitos
+Mont Blanc	type=Company, normalized=Mont Blanc
+Montecassino	type=Company, normalized=Montecassino
+Moon Jeans	type=Company, normalized=Moon Jeans
+Mora Azul	type=Company, normalized=Mora Azul
+Morrikos	type=Company, normalized=Morrikos
+Motosport	type=Company, normalized=Motosport
+Movistar	type=Company, normalized=Movistar
+Moyo	type=Company, normalized=Moyo
+Mr. Sushi	type=Company, normalized=Mr. Sushi
+Muebles Dico	type=Company, normalized=Muebles Dico
+Mujer Bonita	type=Company, normalized=Mujer Bonita
+Mundo Feliz	type=Company, normalized=Mundo Feliz
+Mundo Helado	type=Company, normalized=Mundo Helado
+Mundo Odontológico	type=Company, normalized=Mundo Odontológico
+Mundo Peque	type=Company, normalized=Mundo Peque
+Musas	type=Company, normalized=Musas
+Muzza	type=Company, normalized=Muzza
+Muzza Zapatería	type=Company, normalized=Muzza Zapatería
+Mystic	type=Company, normalized=Mystic
+Nana Pancha	type=Company, normalized=Nana Pancha
+Narda	type=Company, normalized=Narda
+Nathan's	type=Company, normalized=Nathan's
+Natural	type=Company, normalized=Natural
+Natural Scents	type=Company, normalized=Natural Scents
+Naturale's	type=Company, normalized=Naturale's
+Naturhouse	type=Company, normalized=Naturhouse
+Nespresso	type=Company, normalized=Nespresso
+Nestle	type=Company, normalized=Nestle
+Neve Gelato	type=Company, normalized=Neve Gelato
+New Gym	type=Company, normalized=New Gym
+Nextel	type=Company, normalized=Nextel
+Nicholas	type=Company, normalized=Nicholas
+Nike	type=Company, normalized=Nike
+Nike Store	type=Company, normalized=Nike Store
+Nína Ferré	type=Company, normalized=Nína Ferré
+Nine West	type=Company, normalized=Nine West
+Novart Boutique	type=Company, normalized=Novart Boutique
+Nuny's Yogurt	type=Company, normalized=Nuny's Yogurt
+Nutrisa	type=Company, normalized=Nutrisa
+Oh lala	type=Company, normalized=Oh lala
+Oh! Interiorismo Contemporáneo	type=Company, normalized=Oh! Interiorismo Contemporáneo
+Okey	type=Company, normalized=Okey
+Omnia Boutique	type=Company, normalized=Omnia Boutique
+Onix	type=Company, normalized=Onix
+Only Nail	type=Company, normalized=Only Nail
+Opp's Jeans	type=Company, normalized=Opp's Jeans
+Optica Americana	type=Company, normalized=Optica Americana
+Optica Mirely	type=Company, normalized=Optica Mirely
+Opticas América	type=Company, normalized=Opticas América
+Opticas Lux	type=Company, normalized=Opticas Lux
+Optikal & Krono Shop	type=Company, normalized=Optikal & Krono Shop
+Oriental Wok	type=Company, normalized=Oriental Wok
+Orios Boutique	type=Company, normalized=Orios Boutique
+Oro y Plata de Colección	type=Company, normalized=Oro y Plata de Colección
+Orthodontics Center of America	type=Company, normalized=Orthodontics Center of America
+Oshkosh	type=Company, normalized=Oshkosh
+Oxido	type=Company, normalized=Oxido
+Oxxo	type=Company, normalized=Oxxo
+Oysho	type=Company, normalized=Oysho
+P.F. Chang's China Bistro	type=Company, normalized=P.F. Chang's China Bistro
+P.S. by Aéropostale	type=Company, normalized=P.S. by Aéropostale
+Palacio de Hierro	type=Company, normalized=Palacio de Hierro
+Palacio de Hierro - Restaurante	type=Company, normalized=Palacio de Hierro - Restaurante
+Pampa y Tango	type=Company, normalized=Pampa y Tango
+Pandora	type=Company, normalized=Pandora
+Pao Lee	type=Company, normalized=Pao Lee
+Papillon	type=Company, normalized=Papillon
+Papo's Shoes	type=Company, normalized=Papo's Shoes
+Parfums Rachelle	type=Company, normalized=Parfums Rachelle
+Parrilla del Charro	type=Company, normalized=Parrilla del Charro
+Paseli	type=Company, normalized=Paseli
+Passion	type=Company, normalized=Passion
+Pastelería Americana	type=Company, normalized=Pastelería Americana
+Pastelería Lolita	type=Company, normalized=Pastelería Lolita
+Patrice	type=Company, normalized=Patrice
+Patrotur	type=Company, normalized=Patrotur
+Paul & Shark	type=Company, normalized=Paul & Shark
+Pavi Italy	type=Company, normalized=Pavi Italy
+Paws	type=Company, normalized=Paws
+Penguin	type=Company, normalized=Penguin
+People in Red	type=Company, normalized=People in Red
+Pepe Jeans	type=Company, normalized=Pepe Jeans
+Pepper's	type=Company, normalized=Pepper's
+Perfect Choice	type=Company, normalized=Perfect Choice
+Perugia	type=Company, normalized=Perugia
+Petland	type=Company, normalized=Petland
+PG Beauty	type=Company, normalized=PG Beauty
+Phiten	type=Company, normalized=Phiten
+Phone City	type=Company, normalized=Phone City
+Photofolio	type=Company, normalized=Photofolio
+Pia Makart	type=Company, normalized=Pia Makart
+Piacenza Ristorante	type=Company, normalized=Piacenza Ristorante
+Piccolo Mondo	type=Company, normalized=Piccolo Mondo
+Pick a Sandwich	type=Company, normalized=Pick a Sandwich
+Piedi Carino	type=Company, normalized=Piedi Carino
+Piel de Plata	type=Company, normalized=Piel de Plata
+Pikolinos	type=Company, normalized=Pikolinos
+Piky Accessories	type=Company, normalized=Piky Accessories
+Pirma	type=Company, normalized=Pirma
+Pizza Amore	type=Company, normalized=Pizza Amore
+Pizza Hut	type=Company, normalized=Pizza Hut
+Pizza Hut Restaurante	type=Company, normalized=Pizza Hut Restaurante
+Pizzería Di Bari	type=Company, normalized=Pizzería Di Bari
+Pizzería Romana	type=Company, normalized=Pizzería Romana
+Pizzeria y tacos de mariscos Marea	type=Company, normalized=Pizzeria y tacos de mariscos Marea
+Pizzeta	type=Company, normalized=Pizzeta
+Plata de Taxco	type=Company, normalized=Plata de Taxco
+Platax & Co	type=Company, normalized=Platax & Co
+Play Circus	type=Company, normalized=Play Circus
+Play City	type=Company, normalized=Play City
+Play Time	type=Company, normalized=Play Time
+Playland	type=Company, normalized=Playland
+PODO CARE	type=Company, normalized=PODO CARE
+Polo Club	type=Company, normalized=Polo Club
+Polo Sur	type=Company, normalized=Polo Sur
+Ponte Almeja	type=Company, normalized=Ponte Almeja
+Pop Atelier	type=Company, normalized=Pop Atelier
+Pop Bar	type=Company, normalized=Pop Bar
+Prada	type=Company, normalized=Prada
+Presta Prenda  Banco Azteca	type=Company, normalized=Presta Prenda  Banco Azteca
+Professional Cycling	type=Company, normalized=Professional Cycling
+Prostyle	type=Company, normalized=Prostyle
+Pull and Bear	type=Company, normalized=Pull and Bear
+Puma	type=Company, normalized=Puma
+Puma Time	type=Company, normalized=Puma Time
+Punto Muerto	type=Company, normalized=Punto Muerto
+Puro Pollo	type=Company, normalized=Puro Pollo
+Qing Dao	type=Company, normalized=Qing Dao
+Quarry	type=Company, normalized=Quarry
+Queen	type=Company, normalized=Queen
+Quick Cut	type=Company, normalized=Quick Cut
+Quiksilver	type=Company, normalized=Quiksilver
+Quilmes	type=Company, normalized=Quilmes
+Quinto Piso	type=Company, normalized=Quinto Piso
+Quiznos	type=Company, normalized=Quiznos
+Quiznos Restaurante	type=Company, normalized=Quiznos Restaurante
+R Julian	type=Company, normalized=R Julian
+R. Picard	type=Company, normalized=R. Picard
+Radio Shack	type=Company, normalized=Radio Shack
+Rafa Velasco Estilista	type=Company, normalized=Rafa Velasco Estilista
+Ram	type=Company, normalized=Ram
+Rana's	type=Company, normalized=Rana's
+Recorcholis	type=Company, normalized=Recorcholis
+Red Mango	type=Company, normalized=Red Mango
+Regalos El Chapulín	type=Company, normalized=Regalos El Chapulín
+Rin Rin Pizza	type=Company, normalized=Rin Rin Pizza
+Rincón Chino	type=Company, normalized=Rincón Chino
+Rio Grande	type=Company, normalized=Rio Grande
+River's System	type=Company, normalized=River's System
+Robert's	type=Company, normalized=Robert's
+Rock Hampton	type=Company, normalized=Rock Hampton
+Rossati	type=Company, normalized=Rossati
+Rous the Shoe Boutique	type=Company, normalized=Rous the Shoe Boutique
+Royal Prestige	type=Company, normalized=Royal Prestige
+Rudos	type=Company, normalized=Rudos
+Run Freaks	type=Company, normalized=Run Freaks
+Sahari's	type=Company, normalized=Sahari's
+Sally Beauty Supply	type=Company, normalized=Sally Beauty Supply
+Salomon	type=Company, normalized=Salomon
+Samsonite	type=Company, normalized=Samsonite
+San Cerdito	type=Company, normalized=San Cerdito
+Sanborns	type=Company, normalized=Sanborns
+Sandra	type=Company, normalized=Sandra
+Sanrio Smiles	type=Company, normalized=Sanrio Smiles
+Sanrio Surprises	type=Company, normalized=Sanrio Surprises
+Santa Clara	type=Company, normalized=Santa Clara
+Santander Serfín	type=Company, normalized=Santander Serfín
+Santangel	type=Company, normalized=Santangel
+Sayori	type=Company, normalized=Sayori
+Sbarro	type=Company, normalized=Sbarro
+Scappino	type=Company, normalized=Scappino
+Scappino 2	type=Company, normalized=Scappino 2
+Schiaparelli	type=Company, normalized=Schiaparelli
+Scotiabank Inverlat	type=Company, normalized=Scotiabank Inverlat
+Sears	type=Company, normalized=Sears
+Sebastian	type=Company, normalized=Sebastian
+Sebastian Lashes	type=Company, normalized=Sebastian Lashes
+Segafredo	type=Company, normalized=Segafredo
+Servitime	type=Company, normalized=Servitime
+Sexy Jeans	type=Company, normalized=Sexy Jeans
+Sfera	type=Company, normalized=Sfera
+Shari Maki	type=Company, normalized=Shari Maki
+Shasa	type=Company, normalized=Shasa
+SHASTRA	type=Company, normalized=SHASTRA
+Shi Wei Xian	type=Company, normalized=Shi Wei Xian
+Shoe Xotica	type=Company, normalized=Shoe Xotica
+Silvia Carnevali	type=Company, normalized=Silvia Carnevali
+Sirloin Stockade	type=Company, normalized=Sirloin Stockade
+Sisters Forever	type=Company, normalized=Sisters Forever
+Sixties	type=Company, normalized=Sixties
+Skechers	type=Company, normalized=Skechers
+Skin Care Kopay	type=Company, normalized=Skin Care Kopay
+Slim Center	type=Company, normalized=Slim Center
+Slinky	type=Company, normalized=Slinky
+Small Animals	type=Company, normalized=Small Animals
+Smart Fit	type=Company, normalized=Smart Fit
+Smartfone	type=Company, normalized=Smartfone
+Snack	type=Company, normalized=Snack
+Snob Bistro	type=Company, normalized=Snob Bistro
+Solaris	type=Company, normalized=Solaris
+Sole	type=Company, normalized=Sole
+Soley	type=Company, normalized=Soley
+Sony Store	type=Company, normalized=Sony Store
+Soriana	type=Company, normalized=Soriana
+Sorpelle	type=Company, normalized=Sorpelle
+Sorrento	type=Company, normalized=Sorrento
+Spa Sebastián	type=Company, normalized=Spa Sebastián
+Spalding	type=Company, normalized=Spalding
+Specialized	type=Company, normalized=Specialized
+Sportia	type=Company, normalized=Sportia
+Sportif	type=Company, normalized=Sportif
+Sportortas	type=Company, normalized=Sportortas
+Springfield	type=Company, normalized=Springfield
+Squalo	type=Company, normalized=Squalo
+St Even	type=Company, normalized=St Even
+Starbucks	type=Company, normalized=Starbucks
+Stellari	type=Company, normalized=Stellari
+Stephanie Ascencio	type=Company, normalized=Stephanie Ascencio
+Steren	type=Company, normalized=Steren
+Steren Shop	type=Company, normalized=Steren Shop
+Sterling	type=Company, normalized=Sterling
+Steve Madden	type=Company, normalized=Steve Madden
+Stilisimo	type=Company, normalized=Stilisimo
+Stop	type=Company, normalized=Stop
+Storm Extreme	type=Company, normalized=Storm Extreme
+Storm Gotcha	type=Company, normalized=Storm Gotcha
+Stradivarius	type=Company, normalized=Stradivarius
+Stuarts	type=Company, normalized=Stuarts
+Studio	type=Company, normalized=Studio
+Studio F	type=Company, normalized=Studio F
+Studio Hair Saloon	type=Company, normalized=Studio Hair Saloon
+Stylo	type=Company, normalized=Stylo
+Subway	type=Company, normalized=Subway
+Subway Restaurante	type=Company, normalized=Subway Restaurante
+Sunglass Hut	type=Company, normalized=Sunglass Hut
+Súper Salads	type=Company, normalized=Súper Salads
+Surman	type=Company, normalized=Surman
+Sushi Itto	type=Company, normalized=Sushi Itto
+Sushi Roll	type=Company, normalized=Sushi Roll
+Sushi Roll Restaurante	type=Company, normalized=Sushi Roll Restaurante
+Sushi Salads	type=Company, normalized=Sushi Salads
+Swarovski	type=Company, normalized=Swarovski
+Swatch	type=Company, normalized=Swatch
+Taco Beef	type=Company, normalized=Taco Beef
+Taco Inn	type=Company, normalized=Taco Inn
+Taco Maran	type=Company, normalized=Taco Maran
+TAF	type=Company, normalized=TAF
+Tamaris	type=Company, normalized=Tamaris
+Tane	type=Company, normalized=Tane
+Tapioca House	type=Company, normalized=Tapioca House
+Taquitos de Pm	type=Company, normalized=Taquitos de Pm
+Tara Brooch	type=Company, normalized=Tara Brooch
+Tarocco	type=Company, normalized=Tarocco
+Tea & Coffee House	type=Company, normalized=Tea & Coffee House
+Ted Kenton	type=Company, normalized=Ted Kenton
+Teddy Mountain	type=Company, normalized=Teddy Mountain
+Telcel	type=Company, normalized=Telcel
+Tempo	type=Company, normalized=Tempo
+Tennis Star	type=Company, normalized=Tennis Star
+Teriyaki San	type=Company, normalized=Teriyaki San
+Texas Ribs	type=Company, normalized=Texas Ribs
+Thai & Japan	type=Company, normalized=Thai & Japan
+The Best House	type=Company, normalized=The Best House
+The Body Shop	type=Company, normalized=The Body Shop
+The Boss Place	type=Company, normalized=The Boss Place
+The Coffee Time	type=Company, normalized=The Coffee Time
+The Italian Coffee	type=Company, normalized=The Italian Coffee
+The Met	type=Company, normalized=The Met
+The Nail Corner	type=Company, normalized=The Nail Corner
+The Urban Corner	type=Company, normalized=The Urban Corner
+Thrifty	type=Company, normalized=Thrifty
+Tierra del fuego	type=Company, normalized=Tierra del fuego
+Tio Taco	type=Company, normalized=Tio Taco
+Todo Moda	type=Company, normalized=Todo Moda
+Todo para sus pies	type=Company, normalized=Todo para sus pies
+Toks	type=Company, normalized=Toks
+Tommy Hilfiger	type=Company, normalized=Tommy Hilfiger
+Topp's	type=Company, normalized=Topp's
+Tops & Bottoms	type=Company, normalized=Tops & Bottoms
+Tortas.com	type=Company, normalized=Tortas.com
+Torton's	type=Company, normalized=Torton's
+Toscano	type=Company, normalized=Toscano
+Totto	type=Company, normalized=Totto
+Tous	type=Company, normalized=Tous
+Toxic	type=Company, normalized=Toxic
+Trender	type=Company, normalized=Trender
+Trenes Insurgentes	type=Company, normalized=Trenes Insurgentes
+Trini	type=Company, normalized=Trini
+trueKDS	type=Company, normalized=trueKDS
+TT Blues	type=Company, normalized=TT Blues
+Tucané	type=Company, normalized=Tucané
+Tufan Tapetes	type=Company, normalized=Tufan Tapetes
+Turin	type=Company, normalized=Turin
+TV Tiendas	type=Company, normalized=TV Tiendas
+Two Par Kids	type=Company, normalized=Two Par Kids
+U Adolfo Dominguez	type=Company, normalized=U Adolfo Dominguez
+Unagui	type=Company, normalized=Unagui
+United Airlines	type=Company, normalized=United Airlines
+United Colors Of Benetton	type=Company, normalized=United Colors Of Benetton
+Uñas Finas	type=Company, normalized=Uñas Finas
+Uñas Norma	type=Company, normalized=Uñas Norma
+Ups Regalos	type=Company, normalized=Ups Regalos
+UPS!	type=Company, normalized=UPS!
+Urban Looks	type=Company, normalized=Urban Looks
+Utopia	type=Company, normalized=Utopia
+Valentina	type=Company, normalized=Valentina
+Vallarta Fitness	type=Company, normalized=Vallarta Fitness
+Vanita	type=Company, normalized=Vanita
+Vanity	type=Company, normalized=Vanity
+Vans	type=Company, normalized=Vans
+Vaso Loko	type=Company, normalized=Vaso Loko
+Veerkamp	type=Company, normalized=Veerkamp
+Veika	type=Company, normalized=Veika
+Vela piel	type=Company, normalized=Vela piel
+Velatti Muebles	type=Company, normalized=Velatti Muebles
+Vellísimo	type=Company, normalized=Vellísimo
+Vertiche	type=Company, normalized=Vertiche
+Very Sexy	type=Company, normalized=Very Sexy
+Veterinaria Mascotas Koala	type=Company, normalized=Veterinaria Mascotas Koala
+Vía República	type=Company, normalized=Vía República
+Via Uno	type=Company, normalized=Via Uno
+Viajes Intermex	type=Company, normalized=Viajes Intermex
+Viajes Palacio	type=Company, normalized=Viajes Palacio
+Viajes Tabasco	type=Company, normalized=Viajes Tabasco
+Vicky Form	type=Company, normalized=Vicky Form
+Victoria Piel y Mas	type=Company, normalized=Victoria Piel y Mas
+Victoria's Secret	type=Company, normalized=Victoria's Secret
+Vida Marina	type=Company, normalized=Vida Marina
+Vilebrequin	type=Company, normalized=Vilebrequin
+Violeta by Mango	type=Company, normalized=Violeta by Mango
+VIP Global Solutions	type=Company, normalized=VIP Global Solutions
+Vip's	type=Company, normalized=Vip's
+Vira Vira	type=Company, normalized=Vira Vira
+Visión Óptica	type=Company, normalized=Visión Óptica
+Visual Tendence	type=Company, normalized=Visual Tendence
+Vittorio Forti	type=Company, normalized=Vittorio Forti
+Vohua	type=Company, normalized=Vohua
+Walking Toes	type=Company, normalized=Walking Toes
+Wall's BabersShop	type=Company, normalized=Wall's BabersShop
+Walmart	type=Company, normalized=Walmart
+wb	type=Company, normalized=wb
+Wendy's	type=Company, normalized=Wendy's
+Wings Army	type=Company, normalized=Wings Army
+Women' Secret	type=Company, normalized=Women' Secret
+Woods	type=Company, normalized=Woods
+Xerox	type=Company, normalized=Xerox
+Xunxes	type=Company, normalized=Xunxes
+Yak Sports & Books	type=Company, normalized=Yak Sports & Books
+Yanina	type=Company, normalized=Yanina
+Yaska	type=Company, normalized=Yaska
+Yenoá	type=Company, normalized=Yenoá
+Yogen fruz	type=Company, normalized=Yogen fruz
+Yokiro Sushi	type=Company, normalized=Yokiro Sushi
+Yomi Wok	type=Company, normalized=Yomi Wok
+Yomood	type=Company, normalized=Yomood
+Yong Chang	type=Company, normalized=Yong Chang
+Yozen	type=Company, normalized=Yozen
+Yumorama	type=Company, normalized=Yumorama
+Yves Rocher	type=Company, normalized=Yves Rocher
+Zara	type=Company, normalized=Zara
+Zara Home	type=Company, normalized=Zara Home
+Zara N1	type=Company, normalized=Zara N1
+Zingara	type=Company, normalized=Zingara
+Zoe Collection	type=Company, normalized=Zoe Collection
+Zurich	type=Company, normalized=Zurich
