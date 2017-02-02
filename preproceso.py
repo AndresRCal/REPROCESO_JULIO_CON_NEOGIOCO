@@ -125,11 +125,35 @@ def DataFrame_pals_sentimiento(df_pals_mod,General):
         if pr == 0:
             DaFr=recorre_general(General,df_pals_mod['MSG'][pr],df_pals_mod['id'][pr])
         else:
-            DaFr=DaFr.append(recorre_general(General,df_pals_mod['MSG'][pr],df_pals_mod['id'][pr]))
+            DaFr=DaFr.append(recorre_general(General,df_pals_mod['MSG'][pr],df_pals_mod['id'][pr]),ignore_index=True)
     end=time.strftime("%H:%M:%S")
     print(' DataFrame_pals_sentimiento()','Inicio:  ',start,'Fin:  ',end)
     return(DaFr)
 
+def descarte_pals_sent(DaFr):
+    ids=[]
+    pals_sent=[]
+    snet=[]
+    posIni=[]
+    posFin=[]
+    long=[]
+    for i in DaFr.index:
+        try:
+            if DaFr['ids'][i]!=DaFr['ids'][i+1]:
+                ids+=[DaFr['ids'][i]]
+                pals_sent+=[DaFr['pals_sent'][i]]
+                snet+=[DaFr['snet'][i]]
+                posIni+=[DaFr['posIni'][i]]
+                posFin+=[DaFr['posFin'][i]]
+            elif DaFr['ids'][i]==DaFr['ids'][i+1] and DaFr['posIni'][i]==DaFr['posIni'][i+1]:
+                ids+=[DaFr['ids'][i]]
+                pals_sent+=[DaFr['pals_sent'][i]]
+                snet+=[DaFr['snet'][i]]
+                posIni+=[DaFr['posIni'][i]]
+                posFin+=[DaFr['posFin'][i]]
+    
+        
+    
 def multiplicador_adm(post,event_id):
     cnt=0
     indices=[]
@@ -201,8 +225,8 @@ def Build_DaFr_symbols(df_pals_mod):
             adm=multiplicador_adm(df_pals_mod['MSG'][i],df_pals_mod['id'][i])
             point=dat_finding(df_pals_mod['MSG'][i],df_pals_mod['id'][i])
         else:
-            adm=adm.append(multiplicador_adm(df_pals_mod['MSG'][i],df_pals_mod['id'][i])) 
-            point=point.append(dat_finding(df_pals_mod['MSG'][i],df_pals_mod['id'][i]))
+            adm=adm.append(multiplicador_adm(df_pals_mod['MSG'][i],df_pals_mod['id'][i]),ignore_index=True) 
+            point=point.append(dat_finding(df_pals_mod['MSG'][i],df_pals_mod['id'][i]),ignore_index=True)
     end=time.strftime("%H:%M:%S")
     print('Build_DaFr_symbols()','Inicio:  ',start,'Fin:  ',end)
     merg=pd.merge(point,adm,on='event_id',how='outer')

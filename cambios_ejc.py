@@ -14,5 +14,6 @@ def importa_intensificadores():
     nfile='intensifiers.dat'
     intens=pd.read_csv(path+os.sep+nfile,sep='\t',encoding='latin_1',header=None,names=['palabra','valor'])
     end=time.strftime("%H:%M:%S")
-    print(' importa_General()','Inicio:  ',start,'Fin:  ',end)
+    print(' importa_intensificadores()','Inicio:  ',start,'Fin:  ',end)
     return(intens)
+    
