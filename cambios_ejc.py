@@ -8,7 +8,21 @@ import time
 import pandas as pd
 import os
 #import preproceso as process
-
+def fecha_actual():
+    itoday = time.strftime("%d")
+    fecha= time.strftime("%Y%m")
+    fecha=str(fecha)+str(itoday)
+    return(fecha)
+    
+def escribe_log(texto):
+    var_fecha=fecha_actual()
+    ruta_log = 'log'+str(var_fecha)+'.txt'
+#    print(var_fecha)
+    archi=open(ruta_log,'a')
+    archi.write(texto)
+    archi.write('\n')
+    return()
+    
 intens = pd.DataFrame()
 #DaFr_Intens=pd.DataFrame()
 
