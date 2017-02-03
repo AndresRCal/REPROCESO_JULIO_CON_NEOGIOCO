@@ -39,7 +39,7 @@ def encuentra_palabras():
                     'Sent1':Sent1
                   }
     conteo_pal=pd.DataFrame(dict_pals_mod).drop_duplicates()
-    print(conteo_pal)
+#    print(conteo_pal)
     return()
     
 encuentra_palabras()
