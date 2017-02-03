@@ -7,6 +7,8 @@ Created on Tue Jan 24 16:27:49 2017
 import time
 import pandas as pd
 import os
+import limpieza_posteos as limp
+import cambios_ejc as ejc
 
 
 def recorre_general(general,post,event_id):
@@ -43,7 +45,7 @@ def recorre_general(general,post,event_id):
                 posIni+=[False]
                 posFin+=[False]
                 long+=[False]
-        elif ' '+general['palabra'][i].upper()+'S ' in post.upper():
+        elif ' '+general['palabra'][i].upper()+'ES ' in post.upper():
             ids+=[event_id]
             pals_sent+=[general['palabra'][i]]
             sent+=[general['sentimiento'][i]]
@@ -85,6 +87,15 @@ def reproceso_delimitacion():
     Sent1=[]
     Sent2=[]
 #    SE CREA EL DATAFRAME CON LAS FRASES QUE TIENEN LAS PALABRAS MODIFICADAS EN EL DICCIONARIO1
+    Mensaje=[]
+    Mensaje_sucio=[]
+    for n in M2.index:
+        basura,auxiliar=limp.replacing_substrings(M2['Mensaje'][n])
+        print('Posteo ',M2['event_id_no'][n],', Limpieza ',basura)
+        Mensaje+=[auxiliar.strip(' ').strip('\n').strip('\t')]
+        Mensaje_sucio+=[M2['Mensaje'][n]]
+    M2['Mensaje_original']=Mensaje_sucio
+    M2['Mensaje']=Mensaje
     pals_mod=['hermosa','hermosamente','hermosura','divercion','diverción','diversion','diversión','divertida','divertidas','divertido','divertidos','divertimos','divertir','favorita','favoritas','favorito','favoritos','exito','éxito','exitos','exitosa','exitosas','exitoso','exitosos','feliz']
     for k in M2.index:
         cnter=0
@@ -129,30 +140,7 @@ def DataFrame_pals_sentimiento(df_pals_mod,General):
     end=time.strftime("%H:%M:%S")
     print(' DataFrame_pals_sentimiento()','Inicio:  ',start,'Fin:  ',end)
     return(DaFr)
-
-def descarte_pals_sent(DaFr):
-    ids=[]
-    pals_sent=[]
-    snet=[]
-    posIni=[]
-    posFin=[]
-    long=[]
-    for i in DaFr.index:
-        try:
-            if DaFr['ids'][i]!=DaFr['ids'][i+1]:
-                ids+=[DaFr['ids'][i]]
-                pals_sent+=[DaFr['pals_sent'][i]]
-                snet+=[DaFr['snet'][i]]
-                posIni+=[DaFr['posIni'][i]]
-                posFin+=[DaFr['posFin'][i]]
-            elif DaFr['ids'][i]==DaFr['ids'][i+1] and DaFr['posIni'][i]==DaFr['posIni'][i+1]:
-                ids+=[DaFr['ids'][i]]
-                pals_sent+=[DaFr['pals_sent'][i]]
-                snet+=[DaFr['snet'][i]]
-                posIni+=[DaFr['posIni'][i]]
-                posFin+=[DaFr['posFin'][i]]
-    
-        
+      
     
 def multiplicador_adm(post,event_id):
     cnt=0
@@ -242,11 +230,12 @@ def WExcel_Wpd(DFrame_list,Names_DFrame_list,Path,FName):
 
 DF_Ref,DF_Reproc,M1,M2,df_pals_mod=reproceso_delimitacion()
 General=importa_General()
-DaFr=DataFrame_pals_sentimiento(df_pals_mod,General)
+DaFr_sent=DataFrame_pals_sentimiento(df_pals_mod,General)
 DaFr_symbols=Build_DaFr_symbols(df_pals_mod)
-#print('Gracias.. hasta luego!')
+DaFr_Intens=ejc.buil_DaFr_intens(df_pals_mod)
+print('Gracias.. hasta luego!')
 
-WExcel_Wpd([DF_Ref,DF_Reproc,General,M1,M2,df_pals_mod,DaFr,DaFr_symbols],['DF_Ref','DF_Reproc','General','M1','M2','df_pals_mod','DaFr','DaFr_symbols'],os.getcwd(),'SALIDAEXCEL1')
+#WExcel_Wpd([DF_Ref,DF_Reproc,General,M1,M2,df_pals_mod,DaFr,DaFr_symbols],['DF_Ref','DF_Reproc','General','M1','M2','df_pals_mod','DaFr','DaFr_symbols'],os.getcwd(),'SALIDAEXCEL1')
 
 
 
