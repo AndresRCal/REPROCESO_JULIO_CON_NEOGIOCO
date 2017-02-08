@@ -23,6 +23,11 @@ def escribe_log(texto):
     archi.write('\n')
     return()
     
+def concat_espacesep(seq):
+    p=' '
+    chain=p.join(seq)
+    return(chain)
+    
 intens = pd.DataFrame()
 #DaFr_Intens=pd.DataFrame()
 

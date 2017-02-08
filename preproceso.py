@@ -91,33 +91,39 @@ def reproceso_delimitacion():
     Mensaje_sucio=[]
     for n in M2.index:
         basura,auxiliar=limp.replacing_substrings(M2['Mensaje'][n])
-        print('Posteo ',M2['event_id_no'][n],', Limpieza ',basura)
+#        print('Posteo ',M2['event_id_no'][n],', Limpieza ',basura)
+        seq=['Posteo',str(M2['event_id_no'][n]),'Limpieza',str(basura)]
+        text_to_log=ejc.concat_espacesep(seq)
+        ejc.escribe_log(text_to_log)
         Mensaje+=[auxiliar.strip(' ').strip('\n').strip('\t')]
         Mensaje_sucio+=[M2['Mensaje'][n]]
     M2['Mensaje_original']=Mensaje_sucio
     M2['Mensaje']=Mensaje
     pals_mod=['hermosa','hermosamente','hermosura','divercion','diverción','diversion','diversión','divertida','divertidas','divertido','divertidos','divertimos','divertir','favorita','favoritas','favorito','favoritos','exito','éxito','exitos','exitosa','exitosas','exitoso','exitosos','feliz']
-    for k in M2.index:
+    for k in M1.index:
         cnter=0
         for i in pals_mod:
-            if cnter <= 0:
-                if i in M2['Mensaje'][k]:
-                    id+=[M2['event_id_no'][k]]
-                    MSG+=[M2['Mensaje'][k]]
-                    Sent1+=[M2['Sentimiento_x'][k]]
-                    Sent2+=[M2['Sentimiento_y'][k]]
+            if cnter == 0:
+                if ' '+str(i)+' ' in M1['Mensaje'][k]:
+                    id+=[M1['event_id_no'][k]]
+                    MSG+=[M1['Mensaje'][k]]
+                    Sent1+=[M1['Sentimiento_x'][k]]
+                    Sent2+=[M1['Sentimiento_y'][k]]
                     cnter=cnter+1
                 else:
-                    continue
+                    pass
     dict_pals_mod={
                     'id':id,
                     'MSG':MSG,
                     'Sent1':Sent1,
                     'Sent2':Sent2
                    }
-    df_pals_mod=pd.DataFrame(dict_pals_mod).drop_duplicates()
+    df_pals_mod=pd.DataFrame(dict_pals_mod)#.drop_duplicates()
     end=time.strftime("%H:%M:%S")
     print(' reproceso_delimitacion()','Inicio:  ',start,'Fin:  ',end)
+    seq=['reproceso_delimitacion()','Inicio:',start,'Fin:',end]
+    text_to_log=ejc.concat_espacesep(seq)
+    ejc.escribe_log(text_to_log)
     return(DF_Ref,DF_Reproc,M1,M2,df_pals_mod)
 
 def importa_General():
@@ -127,6 +133,9 @@ def importa_General():
     General=pd.read_csv(path+os.sep+nfile,sep='\t',encoding='latin_1',header=None,names=['palabra','sentimiento'])
     end=time.strftime("%H:%M:%S")
     print(' importa_General()','Inicio:  ',start,'Fin:  ',end)
+    seq=['importa_General()','Inicio:',start,'Fin:',end]
+    text_to_log=ejc.concat_espacesep(seq)
+    ejc.escribe_log(text_to_log)
     return(General)
     
 def DataFrame_pals_sentimiento(df_pals_mod,General):
@@ -139,6 +148,9 @@ def DataFrame_pals_sentimiento(df_pals_mod,General):
             DaFr=DaFr.append(recorre_general(General,df_pals_mod['MSG'][pr],df_pals_mod['id'][pr]),ignore_index=True)
     end=time.strftime("%H:%M:%S")
     print(' DataFrame_pals_sentimiento()','Inicio:  ',start,'Fin:  ',end)
+    seq=['DataFrame_pals_sentimiento()','Inicio:',start,'Fin:',end]
+    text_to_log=ejc.concat_espacesep(seq)
+    ejc.escribe_log(text_to_log)
     return(DaFr)
       
     
@@ -215,19 +227,29 @@ def Build_DaFr_symbols(df_pals_mod):
         else:
             adm=adm.append(multiplicador_adm(df_pals_mod['MSG'][i],df_pals_mod['id'][i]),ignore_index=True) 
             point=point.append(dat_finding(df_pals_mod['MSG'][i],df_pals_mod['id'][i]),ignore_index=True)
+    merg=pd.merge(point,adm,on='event_id',how='outer')
     end=time.strftime("%H:%M:%S")
     print('Build_DaFr_symbols()','Inicio:  ',start,'Fin:  ',end)
-    merg=pd.merge(point,adm,on='event_id',how='outer')
+    seq=['Build_DaFr_symbols()','Inicio:',start,'Fin:',end]
+    text_to_log=ejc.concat_espacesep(seq)
+    ejc.escribe_log(text_to_log)
     return(merg)
         
 def WExcel_Wpd(DFrame_list,Names_DFrame_list,Path,FName):
+    start=time.strftime("%H:%M:%S")
     band=0
     writer=pd.ExcelWriter(Path+os.sep+FName+'.xlsx',engine='xlsxwriter')
     for i in DFrame_list:
         i.to_excel(writer,sheet_name=Names_DFrame_list[band],index=False)
         band=band+1
     writer.save()
+    end=time.strftime("%H:%M:%S")
+    print('WExcel_Wpd()','Inicio:  ',start,'Fin:  ',end)
+    seq=['WExcel_Wpd()','Inicio:',start,'Fin:',end]
+    text_to_log=ejc.concat_espacesep(seq)
+    ejc.escribe_log(text_to_log)
 
+    
 DF_Ref,DF_Reproc,M1,M2,df_pals_mod=reproceso_delimitacion()
 General=importa_General()
 DaFr_sent=DataFrame_pals_sentimiento(df_pals_mod,General)
@@ -235,7 +257,7 @@ DaFr_symbols=Build_DaFr_symbols(df_pals_mod)
 DaFr_Intens=ejc.buil_DaFr_intens(df_pals_mod)
 print('Gracias.. hasta luego!')
 
-#WExcel_Wpd([DF_Ref,DF_Reproc,General,M1,M2,df_pals_mod,DaFr,DaFr_symbols],['DF_Ref','DF_Reproc','General','M1','M2','df_pals_mod','DaFr','DaFr_symbols'],os.getcwd(),'SALIDAEXCEL1')
+#WExcel_Wpd([DF_Ref,DF_Reproc,General,M1,M2,df_pals_mod,DaFr_sent,DaFr_Intens,DaFr_symbols],['DF_Ref','DF_Reproc','General','M1','M2','df_pals_mod','DaFr_sent','DaFr_Intens','DaFr_symbols'],os.getcwd(),'SALIDAEXCEL1')
 
 
 
