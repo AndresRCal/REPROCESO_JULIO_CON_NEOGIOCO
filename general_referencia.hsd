@@ -2559,16 +2559,16 @@ distraídos	-0.2
 disturbio	-0.7
 disturbios	-0.7
 disturvio	-0.7
-divercion	0.7
-diverción	0.7
-diversion	0.7
-diversión	0.7
-divertida	0.7
-divertidas	0.7
-divertido	0.7
-divertidos	0.7
-divertimos	0.7
-divertir	0.7
+divercion	1
+diverción	1
+diversion	1
+diversión	1
+divertida	1
+divertidas	1
+divertido	1
+divertidos	1
+divertimos	1
+divertir	1
 divina	0.5
 divinamente	0.5
 divinas	0.5
@@ -3289,13 +3289,13 @@ exigente	-0.3
 exigir	-0.3
 exigo	-0.3
 exijo	-0.3
-exito	0.7
-éxito	0.7
-exitos	0.7
-exitosa	0.7
-exitosas	0.7
-exitoso	0.7
-exitosos	0.7
+exito	1
+éxito	1
+exitos	1
+exitosa	1
+exitosas	1
+exitoso	1
+exitosos	1
 exonerar	-0.4
 exoneraron	-0.4
 exonero	-0.4
@@ -3503,10 +3503,10 @@ favorecido	-0.4
 favoresen	-0.4
 favoreser	-0.4
 favoresiendo	-0.4
-favorita	0.7
-favoritas	0.7
-favorito	0.7
-favoritos	0.7
+favorita	1
+favoritas	1
+favorito	1
+favoritos	1
 favuloso	0.6
 favulosos	0.6
 faya	-0.6
@@ -3527,7 +3527,7 @@ felisidad	1
 felisitaciones	1
 felisitar	1
 felismente	1
-feliz	0.7
+feliz	1
 felizmente	1
 feminicidio	-1
 fenomenal	1
@@ -6062,8 +6062,8 @@ oponerce	-0.6
 oponerse	-0.6
 oportuna	0.5
 oportunas	0.5
-~oportunidad
-~oportunidades
+oportunidad	0.5
+oportunidades	0.5
 oportuno	0.5
 oportunos	0.5
 oposicion	-0.6
@@ -7918,10 +7918,10 @@ tolerantes	-0.5
 tolerar	-0.5
 toleravle	-0.5
 toleravlemente	-0.5
-~tomada
-~tomadas
-~tomado
-~tomados
+tomada	-1
+tomadas	-1
+tomado	-1
+tomados	-1
 tomando	-1
 tonta	-0.5
 tontas	-0.5
@@ -8514,6 +8514,6 @@ xD	0.3
 ~buen día
 ~buen dia
 ~buenos dias
-~buenos  
+~buenos días
 ~buenas noches
 ~buena noche
