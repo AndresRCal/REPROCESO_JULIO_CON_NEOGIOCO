@@ -9,7 +9,7 @@ import pandas as pd
 import os
 import limpieza_posteos as limp
 import cambios_ejc as ejc
-
+import calculo_palabra as calc
 
 def recorre_general(general,post,event_id):
     ids=[]
@@ -81,24 +81,30 @@ def reproceso_delimitacion():
     ext1=DF_Ref[['event_id_no','Mensaje','Sentimiento']]
     ext2=DF_Reproc[['event_id_no','Sentimiento']]
     M1=pd.merge(ext1,ext2,on='event_id_no',how='inner')
+    M1Mensaje=[]
+    M1Mensaje_sucio=[]
+    for l in M1.index:
+        basura,auxiliar=limp.replacing_substrings(M1['Mensaje'][l])
+        seq=['Posteo',str(M1['event_id_no'][l]),'Limpieza',str(basura)]
+        text_to_log=ejc.concat_espacesep(seq)
+#        print(text_to_log)
+        try:
+            ejc.escribe_log(text_to_log)
+        except Exception as msg:
+            ejc.escribe_log(ejc.concat_espacesep(str([M1['event_id_no'][l],msg])))
+            print(ejc.concat_espacesep([M1['event_id_no'][l],msg]))
+        M1Mensaje+=[auxiliar.strip(' ').strip('\n').strip('\t')]
+        M1Mensaje_sucio+=[M1['Mensaje'][l]]
+    M1['Mensaje_original']=M1Mensaje_sucio
+    M1['Mensaje']=M1Mensaje
+    
+    
     M2=M1[M1['Sentimiento_x']!=M1['Sentimiento_y']]
     id=[]
     MSG=[]
     Sent1=[]
     Sent2=[]
 #    SE CREA EL DATAFRAME CON LAS FRASES QUE TIENEN LAS PALABRAS MODIFICADAS EN EL DICCIONARIO1
-    Mensaje=[]
-    Mensaje_sucio=[]
-    for n in M2.index:
-        basura,auxiliar=limp.replacing_substrings(M2['Mensaje'][n])
-#        print('Posteo ',M2['event_id_no'][n],', Limpieza ',basura)
-        seq=['Posteo',str(M2['event_id_no'][n]),'Limpieza',str(basura)]
-        text_to_log=ejc.concat_espacesep(seq)
-        ejc.escribe_log(text_to_log)
-        Mensaje+=[auxiliar.strip(' ').strip('\n').strip('\t')]
-        Mensaje_sucio+=[M2['Mensaje'][n]]
-    M2['Mensaje_original']=Mensaje_sucio
-    M2['Mensaje']=Mensaje
     pals_mod=['hermosa','hermosamente','hermosura','divercion','diverción','diversion','diversión','divertida','divertidas','divertido','divertidos','divertimos','divertir','favorita','favoritas','favorito','favoritos','exito','éxito','exitos','exitosa','exitosas','exitoso','exitosos','feliz']
     for k in M1.index:
         cnter=0
@@ -131,6 +137,14 @@ def importa_General():
     path='''C:\\Users\\AAREYESC\\Documents\\GitHub\\analisis-sentimiento\\user\\salience\\sentiment'''
     nfile='general.hsd'
     General=pd.read_csv(path+os.sep+nfile,sep='\t',encoding='latin_1',header=None,names=['palabra','sentimiento'])
+    palabra=['exitosas','exitoso','exitosos']
+    sentimiento=[0.7,0.7,0.7]
+    df_aux={
+    'palabra':palabra,
+    'sentimiento':sentimiento
+    }
+    df=pd.DataFrame(df_aux)
+    General=General.append(df,ignore_index=True)
     end=time.strftime("%H:%M:%S")
     print(' importa_General()','Inicio:  ',start,'Fin:  ',end)
     seq=['importa_General()','Inicio:',start,'Fin:',end]
@@ -254,7 +268,9 @@ DF_Ref,DF_Reproc,M1,M2,df_pals_mod=reproceso_delimitacion()
 General=importa_General()
 DaFr_sent=DataFrame_pals_sentimiento(df_pals_mod,General)
 DaFr_symbols=Build_DaFr_symbols(df_pals_mod)
+DaFr_symbols=calc.finding_ranges_symbols(DaFr_symbols)
 DaFr_Intens=ejc.buil_DaFr_intens(df_pals_mod)
+MPrecalculo=calc.M_Precalculo(DaFr_sent,DaFr_symbols,DaFr_Intens)
 print('Gracias.. hasta luego!')
 
 #WExcel_Wpd([DF_Ref,DF_Reproc,General,M1,M2,df_pals_mod,DaFr_sent,DaFr_Intens,DaFr_symbols],['DF_Ref','DF_Reproc','General','M1','M2','df_pals_mod','DaFr_sent','DaFr_Intens','DaFr_symbols'],os.getcwd(),'SALIDAEXCEL1')

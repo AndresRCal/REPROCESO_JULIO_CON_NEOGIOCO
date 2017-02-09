@@ -26,7 +26,7 @@ def replacing_substrings(post,lst_comienzan=['htt','#','@','RT']):
                     pos_fin+=[post.index(' ',pos_ini[band])]
                 except Exception as msg:
 #                    print(msg)
-                    pos_fin+=[len(post)-1]                              
+                    pos_fin+=[len(post)]                              
                 substrings+=[post[pos_ini[band]:pos_fin[band]]]
                 band=band+1              
         else: 

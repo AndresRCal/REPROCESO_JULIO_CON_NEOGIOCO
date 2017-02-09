@@ -7,6 +7,8 @@ Created on Wed Feb  1 15:07:55 2017
 import time
 import pandas as pd
 import os
+import codecs;
+
 #import preproceso as process
 def fecha_actual():
     itoday = time.strftime("%d")
@@ -18,9 +20,10 @@ def escribe_log(texto):
     var_fecha=fecha_actual()
     ruta_log = 'log'+str(var_fecha)+'.txt'
 #    print(var_fecha)
-    archi=open(ruta_log,'a')
-    archi.write(texto)
-    archi.write('\n')
+#    archi=open(ruta_log,'a')
+    archi=codecs.open('archivorelacion'+ruta_log,'a','utf8')
+    archi.write(str(texto))
+    archi.write('\r\n')
     return()
     
 def concat_espacesep(seq):
