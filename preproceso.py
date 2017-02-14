@@ -97,8 +97,6 @@ def reproceso_delimitacion():
         M1Mensaje_sucio+=[M1['Mensaje'][l]]
     M1['Mensaje_original']=M1Mensaje_sucio
     M1['Mensaje']=M1Mensaje
-    
-    
     M2=M1[M1['Sentimiento_x']!=M1['Sentimiento_y']]
     id=[]
     MSG=[]
@@ -271,19 +269,8 @@ DaFr_symbols=Build_DaFr_symbols(df_pals_mod)
 DaFr_symbols=calc.finding_ranges_symbols(DaFr_symbols)
 DaFr_Intens=ejc.buil_DaFr_intens(df_pals_mod)
 MPrecalculo=calc.M_Precalculo(DaFr_sent,DaFr_symbols,DaFr_Intens)
+MPrecalculo=calc.agregar_colm_resultado(MPrecalculo)
 print('Gracias.. hasta luego!')
 
-#WExcel_Wpd([DF_Ref,DF_Reproc,General,M1,M2,df_pals_mod,DaFr_sent,DaFr_Intens,DaFr_symbols],['DF_Ref','DF_Reproc','General','M1','M2','df_pals_mod','DaFr_sent','DaFr_Intens','DaFr_symbols'],os.getcwd(),'SALIDAEXCEL1')
-
-
-
-
-
-
-
-
-
-
-
-
+WExcel_Wpd([DF_Ref,DF_Reproc,General,M1,M2,df_pals_mod,DaFr_sent,DaFr_Intens,DaFr_symbols,MPrecalculo],['DF_Ref','DF_Reproc','General','M1','M2','df_pals_mod','DaFr_sent','DaFr_Intens','DaFr_symbols','MPrecalculo'],os.getcwd(),'SALIDAEXCEL1')
 
